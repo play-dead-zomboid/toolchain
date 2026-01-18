@@ -1,0 +1,295 @@
+:root {
+  --pd-green: #5f9b7a;
+  --pd-green-dark: #2f5a45;
+  --pd-black: #0f1412;
+  --pd-cream: #f3eddc;
+
+  --bg: var(--pd-black);
+  --fg: var(--pd-cream);
+  --nav-bg: #1a1f1d;
+  --tab-bg: #222826;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.pd-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.pd-header img {
+  width: 48px;
+  height: 48px;
+}
+
+.sidebar {
+  background: var(--nav-bg);
+  height: 100%;
+  border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+.nav-button {
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: none;
+  padding: 10px 16px;
+  color: var(--fg);
+}
+
+.nav-button:hover {
+  background: var(--pd-green);
+  color: #ffffff;
+}
+
+.tab-bar {
+  background: var(--tab-bg);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+}
+
+.tab {
+  padding: 8px 14px;
+  cursor: pointer;
+  border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+.tab.active {
+  background: var(--pd-green-dark);
+  color: #ffffff;
+}
+
+iframe {
+  border: none;
+  width: 100%;
+  height: calc(100vh - 48px);
+}
+/* ---------- Play Dead SPA helpers ---------- */
+
+.pd-drop-zone {
+  border: 2px dashed rgba(243, 237, 220, 0.4);
+  border-radius: 6px;
+  padding: 40px;
+  text-align: center;
+  color: rgba(243, 237, 220, 0.6);
+  cursor: pointer;
+}
+
+.pd-drop-zone.pd-dragover {
+  background-color: rgba(95, 155, 122, 0.15);
+  border-color: var(--pd-green);
+  color: var(--pd-green);
+}
+
+.pd-pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  overflow: auto;
+}
+
+.pd-match-header {
+  background-color: rgba(196, 75, 58, 0.25);
+}
+
+.pd-mark {
+  background-color: var(--pd-accent);
+  color: #000;
+  padding: 0 2px;
+}
+/* ---------- Bootstrap dark overrides (Play Dead) ---------- */
+
+/* Inputs */
+.form-control {
+  background-color: #121715;
+  color: var(--fg);
+  border: 1px solid rgba(243, 237, 220, 0.25);
+}
+
+.form-control::placeholder {
+  color: rgba(243, 237, 220, 0.5);
+}
+
+.form-control:focus {
+  background-color: #121715;
+  color: var(--fg);
+  border-color: var(--pd-green);
+  box-shadow: 0 0 0 0.15rem rgba(95, 155, 122, 0.35);
+}
+
+/* Primary button -> Play Dead green */
+.btn-primary {
+  background-color: var(--pd-green);
+  border-color: var(--pd-green);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--pd-green-dark);
+  border-color: var(--pd-green-dark);
+}
+
+/* Outline buttons (export/import) */
+.btn-outline-secondary {
+  color: var(--fg);
+  border-color: rgba(243, 237, 220, 0.35);
+}
+
+.btn-outline-secondary:hover {
+  background-color: rgba(243, 237, 220, 0.1);
+  color: var(--fg);
+}
+
+/* Accordion container */
+.accordion-item {
+  background-color: #121715;
+  border: 1px solid rgba(243, 237, 220, 0.15);
+}
+
+/* Accordion header button */
+.accordion-button {
+  background-color: #1a1f1d;
+  color: var(--fg);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #1f2a24;
+  color: var(--fg);
+  box-shadow: none;
+}
+
+/* Remove Bootstrap blue focus glow */
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+/* Accordion body */
+.accordion-body {
+  background-color: #121715;
+  color: var(--fg);
+}
+
+/* Fix default Bootstrap caret color */
+.accordion-button::after {
+  filter: invert(85%);
+}
+/* ---------- String / INI builder ---------- */
+
+.pd-instructions {
+  color: rgba(243, 237, 220, 0.85);
+}
+
+.pd-example {
+  background-color: #121715;
+  border: 1px solid rgba(243, 237, 220, 0.25);
+  padding: 8px;
+  font-family: monospace;
+}
+
+.pd-wid {
+  color: #ff6b6b;
+}
+
+.pd-mod {
+  color: #cfa36a;
+}
+
+.pd-map {
+  color: #b388ff;
+}
+
+.pd-comment {
+  color: #6fbf8a;
+}
+
+.pd-drop {
+  border: 2px dashed rgba(243, 237, 220, 0.35);
+  border-radius: 6px;
+  padding: 24px;
+  text-align: center;
+  background-color: #121715;
+}
+
+.pd-drop p {
+  margin: 0;
+}
+
+.pd-pre {
+  background-color: #121715;
+  color: var(--fg);
+  padding: 8px;
+  border: 1px solid rgba(243, 237, 220, 0.25);
+  border-radius: 4px;
+  white-space: pre-wrap;
+}
+/* ---------- Item Parser ---------- */
+
+.pd-navbar {
+  background-color: #1a1f1d;
+  border-bottom: 1px solid rgba(243, 237, 220, 0.15);
+}
+
+.pd-query-block {
+  background-color: #121715;
+  border: 1px solid rgba(243, 237, 220, 0.25);
+  border-radius: 6px;
+  padding: 12px;
+  font-family: Consolas, Monaco, monospace;
+}
+
+.pd-query-row {
+  display: grid;
+  grid-template-columns: 1fr 140px 1fr auto;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.pd-query-row:last-child {
+  margin-bottom: 0;
+}
+
+.pd-item-card {
+  background-color: #121715;
+  border: 1px solid rgba(243, 237, 220, 0.25);
+  margin-bottom: 12px;
+}
+
+.pd-item-card .card-header {
+  background-color: #1a1f1d;
+  color: var(--fg);
+  border-bottom: 1px solid rgba(243, 237, 220, 0.15);
+}
+
+.pd-item-props {
+  font-family: Consolas, Monaco, monospace;
+  font-size: 0.85rem;
+}
+
+.pd-muted {
+  color: rgba(243, 237, 220, 0.55);
+}
+
+/* Buttons */
+.btn-outline-primary {
+  color: var(--pd-green);
+  border-color: var(--pd-green);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--pd-green);
+  color: #000;
+}
+
+/* Collapse animation looks cleaner dark */
+.collapse {
+  background-color: #121715;
+}

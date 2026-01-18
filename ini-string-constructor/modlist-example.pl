@@ -1,0 +1,122 @@
+# Tile sheets
+3346506593 \Erikas_Tiles;
+3046728955 
+2879745353 \melos_tiles_for_miles_pack;
+2337452747 \Diederiks Tile Palooza;
+2774834715 \EN_Newburbs;
+2837923608 \PertsPartyTiles;
+3412105017 \Project_Seasons_B42;
+
+# maps
+3602388131 \Greenleaf B42 version; Greenleaf;
+3449473111 \Frogtown; Frogtown;
+3037854728 \tikitown;\TikitownPower; Tikitown;
+3480990544 \Constown42; Constown, KY;
+3134394569 \Taylorsville; Taylorsville;
+3565649631 \BlackpineCounty; BlackpineCounty;
+3576750203 \hartburgb42; Hartburg, KY;
+3496507146 \muldraughmilitarybaseas24; muldraughmilitarybaseas24;
+3498269494 \KingsmouthB42; Kingsmouth B42;
+ 
+# UI and mechanical but no new items
+3623624442 \LootRespawnWorkaround;
+2999183635 \LWBetterElectronics;
+3576056135 \BetterGeneratorInfo;
+3618557184 \HereGoesTheSun;
+3388721641 \AutoCook;
+3567695139 \HasResearch;
+2732294885 \NamedSkillVHSTapes;
+3437629766 \CleanUI;
+2866258937 \MiniHealthPanel;
+3624308198 \ProximityInventory4213;
+# need these in a block together IN THIS ORDER
+3508537032 \NeatUI_Framework;
+3502080466 \Neat_Crafting;
+3536052310 \Neat_Building;
+3540503606 \Neat_Crafting_AddonXP;\Neat_Building_AddonXP;
+3623287625 \Neat_Crafting_B42_13;
+
+# Vehicle stuff
+3171167894 \damnlib;
+2535461640 \NoVanillaVehicles;\NoVanillaStoriesKI5+Filibuster;
+# actual vehicles
+3330403100 \KI5trailers;
+2409333430 \91range;\91range2;
+3073430075 \93fordF350;
+3379334330 \82porsche911;
+3110913021 \90bmwE30;
+3366300557 \91fordLTD;
+3034636011 \89dodgeCaravan;
+3409287192 \84jeepXJ;
+3005903549 \63beetle;
+3161951724 \76chevyKseries;
+3413704851 \85chevyCaprice;
+3413706334 \85pontiacParisienne;
+3287727378 \92jeepYJ;\92jeepYJJP18;
+3226885926 \87buickRegal;
+2625625421 \isoContainers;
+3418252689 \85buickLeSabre;
+3418253716 \85oldsmobileDelta88;
+3152529790 \93chevySuburban;\93chevySuburbanExpanded;
+2478247379 \67commando;
+2942793445 \90pierceArrow;
+2991201484 \69camaro;
+2913633066 \70barracuda;
+2873290424 \70dodge;
+3428008364 \86chevyCUCV;
+3253385114 \81deloreanDMC12;\81deloreanDMC12BTTF;
+2846036306 \92nissanGTR;
+2642541073 \92amgeneralM998;
+3435796523 \88toyotaHilux;
+3008795514 \91geoMetro;
+3447272250 \66pontiacLeMans;
+3026723485 \67gt500;
+2900580391 \49powerWagon;
+2937786633 \69mini;\69mini_ItalianJob;\69mini_MrBean;\69mini_PitbullSpecial;
+2870394916 \86fordE150;\86fordE150dnd;\86fordE150mm;\86fordE150pd;\86fordE150expanded;
+3292659291 \89volvo200;
+2969343830 \93fordElgin;
+2566953935 \86oshkoshP19A;
+2962175696 \92fordCVPI;
+3196180339 \87chevySuburban;
+3258343790 \68firebird;
+3346905070 \77firebird;
+3320947974 \82firebird;\82firebirdKITT;
+3478633453 \04vwTouran;
+2952802178 \90fordF350ambulance;
+3001592312 \93mustangSSP;
+3052360250 \87toyotaMR2;
+3490370700 \73fordFalcon;\73fordFalconPS;
+2932547723 \93townCar;
+2805630347 \84merc;
+3504401781 \91nissan240sx;
+2772575623 \59meteor;\ECTO1;
+3110911330 \87fordB700;
+3088951320 \93fordTaurus;
+3213391371 \75grandPrix;
+2932549988 \89trooper;
+3041122351 \63Type2Van;
+2971246021 \99fordCVPI;
+3539691958 \91fordRanger;
+3315443103 \98stagea;
+2886832257 \82jeepJ10;\82jeepJ10t;
+2886832936 \88chevyS10;
+2886833398 \89fordBronco;
+2811383142 \83amgeneralM923;
+2799152995 \78amgeneralM35A2;\78amgeneralM35A2extra;\78amgeneralM49A2C;\78amgeneralM50A3;\78amgeneralM62;
+3248388837 \80manKat1;
+3566868353 \65banshee;
+3570973322 \89defender;
+2897390033 \97bushmaster;
+3592777775 \84cadillacDeVille;
+3596903773 \84buickElectra;
+3601417745 \84oldsmobile98;
+3614034284 \85chevyStepVan;\85chevyStepVanexpanded;
+3631989559 \69charger;
+
+# new items
+3596827035 \ShelterHold_Beehive;
+3577903007 \VanillaFoodsExpanded;
+
+#our stuff (most important, goes in last)
+3639343991 \pdAssignments;

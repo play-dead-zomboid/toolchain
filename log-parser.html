@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Log Parser</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <link href="pd.css" rel="stylesheet" />
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+
+<body>
+<div id="app" class="container mt-4">
+
+  <!-- Import / Export / Search -->
+  <div class="d-flex gap-2 mb-3 align-items-center">
+    <button class="btn btn-outline-secondary" v-on:click="exportLogs">
+      Export Logs
+    </button>
+
+    <button class="btn btn-outline-secondary" v-on:click="triggerImport">
+      Import Logs
+    </button>
+
+    <input
+      type="text"
+      class="form-control w-50"
+      placeholder="search errors..."
+      v-model="searchTerm"
+    />
+
+    <input
+      type="file"
+      ref="importFile"
+      class="d-none"
+      accept="application/json"
+      v-on:change="importLogs"
+    />
+  </div>
+
+  <!-- Drop Zone -->
+  <div
+    class="pd-drop-zone mb-3"
+    v-bind:class="{ 'pd-dragover': isDragOver }"
+    v-on:dragover.prevent="onDragOver"
+    v-on:dragleave="onDragLeave"
+    v-on:drop.prevent="onDrop"
+  >
+    Drag and drop a log file here
+  </div>
+
+  <!-- Store Controls -->
+  <div class="row g-2 mb-4">
+    <div class="col-3">
+      <input class="form-control" placeholder="store log as..." v-model="storeName" />
+    </div>
+    <div class="col-3">
+      <input class="form-control" placeholder="workshopId" v-model="workshopId" />
+    </div>
+    <div class="col-3">
+      <input class="form-control" placeholder="modId" v-model="modId" />
+    </div>
+    <div class="col-3">
+      <input class="form-control" placeholder="maps" v-model="maps" />
+    </div>
+    <div class="col-12">
+      <button
+        class="btn btn-primary w-100 mt-2"
+        v-on:click="storeLog"
+        :disabled="!storeName || !output"
+      >
+        Store Parsed Log
+      </button>
+    </div>
+  </div>
+
+  <!-- Stored Logs Accordion -->
+  <div class="accordion" id="logsAccordion">
+    <div
+      class="accordion-item"
+      v-for="(log, key, index) in allLogs"
+      :key="key"
+    >
+      <h2 class="accordion-header">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          :data-bs-target="'#log_' + index"
+          :class="{ 'pd-match-header': logMatches(log) }"
+        >
+          {{ log.logName }}
+        </button>
+      </h2>
+
+      <div
+        :id="'log_' + index"
+        class="accordion-collapse collapse"
+        data-bs-parent="#logsAccordion"
+      >
+        <div class="accordion-body">
+          <div class="mb-2"><strong>Workshop ID:</strong> {{ log.workshopId }}</div>
+          <div class="mb-2"><strong>Mod ID:</strong> {{ log.modId }}</div>
+          <div class="mb-2"><strong>Maps:</strong> {{ log.maps }}</div>
+
+          <pre class="pd-pre" v-html="highlight(log.output)"></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+Vue.createApp({
+  data() {
+    return {
+      isDragOver: false,
+      output: '',
+      storeName: '',
+      workshopId: '',
+      modId: '',
+      maps: '',
+      searchTerm: '',
+      allLogs: {}
+    };
+  },
+
+  methods: {
+    onDragOver() { this.isDragOver = true; },
+    onDragLeave() { this.isDragOver = false; },
+
+    onDrop(e) {
+      this.isDragOver = false;
+      const file = e.dataTransfer.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => this.parseLog(reader.result);
+      reader.readAsText(file);
+    },
+
+    parseLog(text) {
+      const lines = text.split(/\r?\n/);
+      let results = [];
+      let i = 0;
+
+      while (i < lines.length) {
+        if (!/^\[\d{2}-\d{2}-\d{2} .*?\]/.test(lines[i])) {
+          i++;
+          continue;
+        }
+
+        let block = lines[i];
+        let j = i + 1;
+
+        while (j < lines.length && !/^\[\d{2}-\d{2}-\d{2} .*?\]/.test(lines[j])) {
+          block += '\n' + lines[j];
+          j++;
+        }
+
+        if (/error|warning/i.test(block)) {
+          results.push(
+            `(line ${i + 1}) ` +
+            block
+              .replace(/^\[\d{2}-\d{2}-\d{2} .*?\]\s*/, '')
+              .replace(/\bf:\d+,\s*/g, '')
+              .replace(/\bt:\d+,\s*/g, '')
+              .replace(/\bst:[\d,]+>\s*/g, '')
+          );
+        }
+
+        i = j;
+      }
+
+      this.output = results.join('\n\n');
+    },
+
+    storeLog() {
+      this.allLogs[this.storeName] = {
+        logName: this.storeName,
+        output: this.output,
+        workshopId: this.workshopId,
+        modId: this.modId,
+        maps: this.maps
+      };
+
+      this.output = '';
+      this.storeName = '';
+      this.workshopId = '';
+      this.modId = '';
+      this.maps = '';
+    },
+
+    logMatches(log) {
+      return this.searchTerm &&
+        log.output.toLowerCase().includes(this.searchTerm.toLowerCase());
+    },
+
+    highlight(text) {
+      if (!this.searchTerm) return text;
+      const escaped = this.searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      return text.replace(
+        new RegExp(escaped, 'gi'),
+        m => `<mark class="pd-mark">${m}</mark>`
+      );
+    },
+
+    exportLogs() {
+      const blob = new Blob(
+        [JSON.stringify(this.allLogs, null, 2)],
+        { type: 'application/json' }
+      );
+      const url = URL.createObjectURL(blob);
+      Object.assign(document.createElement('a'), {
+        href: url,
+        download: 'allLogs.json'
+      }).click();
+      URL.revokeObjectURL(url);
+    },
+
+    triggerImport() {
+      this.$refs.importFile.click();
+    },
+
+    importLogs(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const parsed = JSON.parse(reader.result);
+          if (parsed && typeof parsed === 'object') {
+            this.allLogs = parsed;
+          }
+        } catch {}
+      };
+
+      reader.readAsText(file);
+      e.target.value = '';
+    }
+  }
+}).mount('#app');
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
