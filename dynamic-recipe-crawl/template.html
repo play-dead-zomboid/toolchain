@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Project Zomboid Recipe Explorer</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/pako@2.1.0/dist/pako.min.js"></script>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <link href="pd.css" rel="stylesheet" />
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+
+<body>
+<div id="PDApp">
+
+  <!-- Top Bar -->
+  <nav class="navbar pd-navbar px-3">
+    <div class="d-flex align-items-center">
+      <div>
+        <span class="fw-bold">Recipe Explorer</span>
+        <span class="pd-muted small"> · Build 42 · Base + Mods</span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid mt-3">
+
+    <!-- Name search -->
+    <div class="mb-3">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Search recipe name..."
+        v-model="nameFilter"
+      />
+    </div>
+
+    <!-- Query Builder -->
+    <div class="pd-query-block mb-3">
+      <div
+        class="pd-query-row"
+        v-for="(rule, index) in searchRules"
+        :key="index"
+      >
+        <select class="form-select form-select-sm"
+                v-model="rule.property">
+          <option disabled value="">property</option>
+          <option v-for="p in propertyVocabulary" :key="p" :value="p">
+            {{ p }}
+          </option>
+        </select>
+
+        <select class="form-select form-select-sm"
+                v-model="rule.operator">
+          <option value="=">=</option>
+          <option value="<">&lt;</option>
+          <option value="<=">&lt;=</option>
+          <option value=">">&gt;</option>
+          <option value=">=">&gt;=</option>
+          <option value="contains">contains</option>
+        </select>
+
+        <input type="text"
+               class="form-control form-control-sm"
+               v-model="rule.value"
+               placeholder="value" />
+
+        <button class="btn btn-sm btn-outline-danger"
+                v-on:click="removeRule(index)">
+          ✕
+        </button>
+      </div>
+
+      <div class="mt-2">
+        <button class="btn btn-sm btn-outline-primary"
+                v-on:click="addRule">
+          + Add condition
+        </button>
+        <button class="btn btn-sm btn-outline-secondary ms-2"
+                v-on:click="clearRules">
+          Clear
+        </button>
+      </div>
+    </div>
+
+    <!-- Results Summary -->
+    <div class="mb-2 pd-muted">
+      {{ filteredRecipes.length }} recipes matched
+    </div>
+
+    <!-- Results -->
+    <div>
+      <div class="card pd-item-card"
+           v-for="recipe in filteredRecipes"
+           :key="recipe.identity">
+
+        <div class="card-header d-flex justify-content-between">
+          <strong>{{ recipe.recipe_name }}</strong>
+          <button class="btn btn-sm btn-outline-secondary"
+                  data-bs-toggle="collapse"
+                  :data-bs-target="'#recipe-' + safeId(recipe.identity)">
+            Details
+          </button>
+        </div>
+
+        <div class="collapse"
+             :id="'recipe-' + safeId(recipe.identity)">
+          <div class="card-body pd-item-props">
+
+            <!-- Properties -->
+            <div v-for="(val, key) in recipe.properties"
+                 :key="key">
+              <strong>{{ key }}</strong>: {{ val }}
+            </div>
+
+            <!-- Inputs -->
+            <div class="mt-2">
+              <strong>Inputs</strong>
+              <ul class="mb-1">
+                <li v-for="(slot, i) in recipe.inputs" :key="i">
+                  {{ slot.count }} ×
+                  <span v-if="slot.items.length">
+                    {{ slot.items.join(', ') }}
+                  </span>
+                  <span v-if="slot.tags.length">
+                    [tags: {{ slot.tags.join(', ') }}]
+                  </span>
+                  <span v-if="slot.mode">
+                    (mode: {{ slot.mode }})
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Outputs -->
+            <div class="mt-2">
+              <strong>Outputs</strong>
+              <ul class="mb-1">
+                <li v-for="(slot, i) in recipe.outputs" :key="i">
+                  {{ slot.count }} ×
+                  <span v-if="slot.items.length">
+                    {{ slot.items.join(', ') }}
+                  </span>
+                  <span v-if="slot.mapper">
+                    (mapper: {{ slot.mapper }})
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="pd-muted mt-2 small">
+              {{ recipe.file_path }}
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+const __RECIPES_PAYLOAD__ = "/*__RECIPES_PAYLOAD__*/";
+const __RECIPE_VOCAB_PAYLOAD__ = "/*__RECIPE_VOCAB_PAYLOAD__*/";
+</script>
+
+<script>
+function decompressPayload(payload) {
+  const clean = payload.replace(/\s+/g, '');
+  const binary = Uint8Array.from(atob(clean), c => c.charCodeAt(0));
+  const decompressed = pako.ungzip(binary);
+  return JSON.parse(new TextDecoder("utf-8").decode(decompressed));
+}
+</script>
+
+<script>
+const PDApp = Vue.createApp({
+  data() {
+    return {
+      nameFilter: '',
+      recipes: [],
+      propertyVocabulary: [],
+      searchRules: [
+        { property: '', operator: 'contains', value: '' }
+      ],
+    };
+  },
+
+  mounted() {
+    this.recipes = decompressPayload(__RECIPES_PAYLOAD__);
+    const vocabObj = decompressPayload(__RECIPE_VOCAB_PAYLOAD__);
+    this.propertyVocabulary = Object.keys(vocabObj.properties || {}).sort();
+  },
+
+  computed: {
+    filteredRecipes() {
+      const name = this.nameFilter.trim().toLowerCase();
+
+      return this.recipes.filter(recipe => {
+        if (name) {
+          const tokens = recipe.recipe_name
+            .toLowerCase()
+            .split(/[^a-z0-9]+/);
+          if (!tokens.some(t => t.startsWith(name))) return false;
+        }
+
+        return this.searchRules.every(rule =>
+          this.evaluateRule(recipe, rule)
+        );
+      });
+    }
+  },
+
+  methods: {
+    safeId(identity) {
+      return identity.replace(/[^a-zA-Z0-9_-]/g, '_');
+    },
+
+    addRule() {
+      this.searchRules.push({ property: '', operator: 'contains', value: '' });
+    },
+
+    removeRule(index) {
+      this.searchRules.splice(index, 1);
+    },
+
+    clearRules() {
+      this.searchRules = [{ property: '', operator: 'contains', value: '' }];
+    },
+
+    evaluateRule(recipe, rule) {
+      if (!rule.property || rule.value === '') return true;
+
+      const propVal = recipe.properties[rule.property];
+      if (propVal === undefined) return false;
+
+      const searchVal = rule.value.toLowerCase();
+
+      if (typeof propVal === 'number') {
+        const num = parseFloat(rule.value);
+        if (Number.isNaN(num)) return false;
+
+        switch (rule.operator) {
+          case '=':  return propVal === num;
+          case '<':  return propVal < num;
+          case '<=': return propVal <= num;
+          case '>':  return propVal > num;
+          case '>=': return propVal >= num;
+        }
+      }
+
+      if (Array.isArray(propVal)) {
+        if (rule.operator === 'contains') {
+          return propVal.some(v => v.includes(searchVal));
+        }
+        if (rule.operator === '=') {
+          return propVal.some(v => v === searchVal);
+        }
+        return false;
+      }
+
+      if (typeof propVal === 'string') {
+        if (rule.operator === 'contains') {
+          return propVal.includes(searchVal);
+        }
+        if (rule.operator === '=') {
+          return propVal === searchVal;
+        }
+      }
+
+      return false;
+    }
+  }
+});
+
+PDApp.mount('#PDApp');
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
