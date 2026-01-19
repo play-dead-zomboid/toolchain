@@ -14,7 +14,6 @@ body {
   background-color: var(--bg);
   color: var(--fg);
   height: 100vh;
-  overflow: hidden;
 }
 
 .pd-header {
@@ -292,4 +291,8 @@ iframe {
 /* Collapse animation looks cleaner dark */
 .collapse {
   background-color: #121715;
+}
+
+.card {
+  color: var(--pd-green);
 }
