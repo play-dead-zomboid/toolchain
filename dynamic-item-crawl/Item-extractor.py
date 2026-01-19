@@ -132,6 +132,7 @@ def build_property_vocabulary_from_items(
 def parse_items(files: List[tuple]):
     items: List[ItemDefinition] = []
     errors: List[ParseError] = []
+    seen_identities = set()
 
     for workshop_id, mod_id, source_root, path in files:
         try:
@@ -157,7 +158,7 @@ def parse_items(files: List[tuple]):
                 i += 1
                 continue
 
-            # ITEM 
+            # ITEM
             if line.lower().startswith("item "):
 
                 j = i + 1
@@ -185,7 +186,7 @@ def parse_items(files: List[tuple]):
                 raw_props: List[RawProperty] = []
                 effective: Dict[str, str] = {}
 
-                                # Consume '{'
+                # Consume '{'
                 i = j + 1
                 brace_depth = 1
 
@@ -208,13 +209,18 @@ def parse_items(files: List[tuple]):
 
                     i += 1
 
-                # -----------------------------
                 # B42-only filter
-                # -----------------------------
                 if "itemtype" not in effective:
                     continue
 
                 identity = f"{workshop_id}.{mod_id}.{current_module}.{item_name}"
+
+                # Identity deduplication
+                if identity in seen_identities:
+                    continue
+
+                seen_identities.add(identity)
+
                 items.append(
                     ItemDefinition(
                         identity=identity,
@@ -231,10 +237,8 @@ def parse_items(files: List[tuple]):
                 items_found += 1
                 continue
 
-
             i += 1
 
-        # Only emit errors if the file actually contained items
         if items_found > 0:
             errors.extend(local_errors)
 
