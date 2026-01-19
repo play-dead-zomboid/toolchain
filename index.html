@@ -32,7 +32,7 @@
             <small class="text-muted">Project Zomboid Server</small>
           </div>
         </div>
-
+        <div><strong>INTERNAL TOOLS</strong></div>
         <button
           class="nav-button"
           v-for="item in navItems"
@@ -40,6 +40,14 @@
         >
           {{ item.label }}
         </button>
+        <div><strong>EXTERNAL LINKS</strong></div>
+        <button
+          class="nav-button external"
+          v-for="link in externalLinks"
+          v-on:click="openExternal(link)"
+        >
+          {{ link.label }}
+        </button> 
       </div>
 
       <!-- Main -->
@@ -79,7 +87,38 @@ const app = Vue.createApp({
         { id: "items", label: "Item Parser", src: "play-dead.html" },
         { id: "logs", label: "Log Parser", src: "log-parser.html" },
         { id: "inibuilder", label: "ini string builder", src: "string-constructor.html" }
-      ]
+      ],
+      externalLinks: [
+      {
+        id: "factions", label: "Faction List",
+        url: "https://docs.google.com/document/d/1JkMWEliOVG6EqCMe62SrMrXB3R5eDgx-50kPsct0_KU/edit?tab=t.g6q4a0bv7iwc"
+      },
+      {
+        id: "b42modDoc", label: "B42 Google Mod Doc",
+        url: "https://docs.google.com/spreadsheets/d/1w5e-0eO3bh2moPlpemYbPL5B0Z_guKjj-x4ufE9KeOk/edit?gid=0#gid=0&fvid=1583629385"
+      },
+      {
+        id: "miro", label: "Play Dead Mind Maps",
+        url: "https://miro.com/app/board/uXjVI2XFg7Y=/"
+      },
+      {
+        id: "triage", label: "Main Triage board",
+        url: "https://trello.com/b/YzZkTFMU/play-dead"
+      },
+      {
+        id: "modTriage", label: "Mod Triage board",
+        url: "https://trello.com/b/4zgfpTMf/play-dead-mods"
+      },
+      {
+        id: "BMB41", label: "B41 battleMetrics",
+        url: "https://www.battlemetrics.com/servers/zomboid/33153448"
+      },
+      {
+        id: "BMB42", label: "B42 BattleMetrics",
+        url: "https://www.battlemetrics.com/servers/zomboid/36831527"
+      }
+
+    ]
     };
   },
 
@@ -90,6 +129,9 @@ const app = Vue.createApp({
         this.tabs.push(item);
       }
       this.activeTab = item.id;
+    },
+    openExternal(link) {
+      window.open(link.url, "_blank", "noopener");
     }
   }
 });

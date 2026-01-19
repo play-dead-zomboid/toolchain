@@ -296,3 +296,6 @@ iframe {
 .card {
   color: var(--pd-green);
 }
+.nav-button.external {
+  opacity: 0.85;
+}
