@@ -110,23 +110,17 @@ def discover_script_files(
     return results
 
 # -----------------------------
-# Property vocabulary discovery
+# Property vocabulary (item-derived)
 # -----------------------------
 
-def discover_property_vocabulary(files: List[tuple]) -> Dict[str, int]:
+def build_property_vocabulary_from_items(
+    items: List[ItemDefinition]
+) -> Dict[str, int]:
     vocab = defaultdict(int)
 
-    for _, _, _, path in files:
-        try:
-            with open(path, encoding="utf-8", errors="ignore") as f:
-                for line in f:
-                    s = line.strip()
-                    if "=" in s and not s.startswith("//"):
-                        key = s.split("=", 1)[0].strip().lower()
-                        if key:
-                            vocab[key] += 1
-        except Exception:
-            continue
+    for item in items:
+        for key in item.effective_properties.keys():
+            vocab[key] += 1
 
     return dict(vocab)
 
@@ -191,7 +185,7 @@ def parse_items(files: List[tuple]):
                 raw_props: List[RawProperty] = []
                 effective: Dict[str, str] = {}
 
-                # Consume '{'
+                                # Consume '{'
                 i = j + 1
                 brace_depth = 1
 
@@ -214,6 +208,12 @@ def parse_items(files: List[tuple]):
 
                     i += 1
 
+                # -----------------------------
+                # B42-only filter
+                # -----------------------------
+                if "itemtype" not in effective:
+                    continue
+
                 identity = f"{workshop_id}.{mod_id}.{current_module}.{item_name}"
                 items.append(
                     ItemDefinition(
@@ -230,6 +230,7 @@ def parse_items(files: List[tuple]):
                 )
                 items_found += 1
                 continue
+
 
             i += 1
 
@@ -454,11 +455,9 @@ def main():
         workshop_root=ROOT_WORKSHOP_PATH,
         base_game_root=r"C:\Program Files (x86)\Steam\steamapps\common\ProjectZomboid"
     )
-    print(f"Discovered script files: {len(files)}")
 
-    vocab = discover_property_vocabulary(files)
     items, errors = parse_items(files)
-
+    vocab = build_property_vocabulary_from_items(items)
     serialize(items, errors, vocab)
     build_display_items(items)
     write_mod_index(ROOT_WORKSHOP_PATH)
