@@ -18,33 +18,35 @@
 <div id="app" class="container mt-4">
 
   <p class="pd-instructions">
-    create a text file, drag and drop it into this tool. Each mod is on its own line:<br/>
-    <span class="pd-wid">[workshopId]</span> space
-    <span class="pd-mod">[modId]</span> space
-    <span class="pd-map">[mapId if applicable]</span><br/>
-    <span class="pd-comment"># a hashtag starts a comment line and gets ignored</span>
+    Create a text file and drag it into this tool. Each mod is defined as a block starting with its Steam Workshop URL.<br/>
+    <span class="pd-comment"># https://steamcommunity.com/workshop/filedetails/?id=##########</span><br/>
+    <span class="pd-wid">[workshopId]</span><br/>
+    <span class="pd-mod">[modId];</span><br/>
+    <span class="pd-map">[mapId1;mapId2;...] (optional)</span><br/>
+    <span class="pd-comment"># other comment lines are allowed and ignored</span>
   </p>
 
   <p>
     <strong>example:</strong>
     <div class="pd-example">
-      <span class="pd-comment"># Tile sheets</span><br/>
-      <span class="pd-wid">3346506593</span>&nbsp;
-      <span class="pd-mod">\Erikas_Tiles;</span><br/>
+      <span class="pd-comment"># Hi! I'm a regular comment, ignore me entirely</span><br/>
+      <span class="pd-comment"># https://steamcommunity.com/workshop/filedetails/?id=3346506593</span><br/>
+      <span class="pd-wid">3346506593</span><br/>
+      <span class="pd-mod">Erikas_Tiles;</span><br/><br/>
 
-      <span class="pd-wid">3046728955</span>&nbsp;
-      <span class="pd-mod">\tikitown_tiles;</span><br/>
+      <span class="pd-comment"># https://steamcommunity.com/workshop/filedetails/discussion/3392009877/501704624676335789/</span><br/>
+      <span class="pd-wid">3392009877</span><br/>
+      <span class="pd-mod">PIEv027-B41;</span><br/>
+      <span class="pd-map">
+        Duncan, IN;Georgetown, IN;New Albany, IN;Laconia, IN;
+        New Amsterdam, IN;New Middletown, IN;Rosewood, IN;
+        Jeffersonville, IN;Utica, IN;Mauckport, IN;Elizabeth, IN;
+        Charlestown, IN;Clarksville, IN;Lanesville, IN;Corydon, IN;
+      </span>
 
-      <span class="pd-comment"># Maps</span><br/>
-      <span class="pd-wid">3602388131</span>&nbsp;
-      <span class="pd-mod">\Greenleaf B42 version;</span>&nbsp;
-      <span class="pd-map">Greenleaf;</span><br/>
-
-      <span class="pd-comment"># our stuff (most important, goes in last)</span><br/>
-      <span class="pd-wid">3639343991</span>&nbsp;
-      <span class="pd-mod">\pdAssignments;</span>
     </div>
   </p>
+
 
   <div
     class="pd-drop mt-3"
@@ -127,29 +129,76 @@ Vue.createApp({
 
       const lines = this.dataString.split(/\r?\n/);
 
-      lines.forEach(line => {
-        line = line.trim();
-        if (!line || line.startsWith('#')) return;
+      const isSteamHeader = (line) =>
+        line.startsWith('#') && line.includes('steamcommunity.com/workshop/');
 
-        const match = line.match(/^(\d+)\s+(.*)$/);
-        if (!match) return;
+      const nextDataLine = (startIndex) => {
+        let i = startIndex;
+        while (i < lines.length) {
+          const s = lines[i].trim();
+          if (!s) { i++; continue; }
+          if (s.startsWith('#') && !isSteamHeader(s)) { i++; continue; }
+          return { index: i, value: s };
+        }
+        return null;
+      };
 
-        const workshopId = match[1];
-        const rest = match[2];
+      const parseWorkshopIds = (line) => {
+        const ids = line.match(/\d+/g);
+        return ids ?? [];
+      };
 
-        this.WorkshopItems += workshopId + ';';
+      const parseSemicolonList = (line) => {
+        return line
+          .split(';')
+          .map(s => s.trim())
+          .filter(Boolean)
+          .map(s => s + ';');
+      };
 
-        const parts = rest.match(/[^;]+;/g);
-        if (!parts) return;
+      let i = 0;
 
-        this.Mods += parts[0];
-        if (parts[1]) this.Maps += parts[1];
-      });
+      while (i < lines.length) {
+        const line = lines[i].trim();
+
+        if (!isSteamHeader(line)) {
+          i++;
+          continue;
+        }
+
+        const workshopLine = nextDataLine(i + 1);
+        if (!workshopLine) break;
+
+        const modLine = nextDataLine(workshopLine.index + 1);
+        if (!modLine) break;
+
+        const mapLine = nextDataLine(modLine.index + 1);
+
+        const workshopIds = parseWorkshopIds(workshopLine.value);
+        workshopIds.forEach(id => {
+          this.WorkshopItems += id + ';';
+        });
+
+        const modIds = parseSemicolonList(modLine.value);
+        modIds.forEach(mod => {
+          this.Mods += mod;
+        });
+
+        if (mapLine && !isSteamHeader(mapLine.value)) {
+          const maps = parseSemicolonList(mapLine.value);
+          maps.forEach(map => {
+            this.Maps += map;
+          });
+          i = mapLine.index + 1;
+        } else {
+          i = modLine.index + 1;
+        }
+      }
 
       if (!this.Maps.includes('Muldraugh, KY;')) {
         this.Maps += 'Muldraugh, KY;';
       }
-    }
+    },
   }
 }).mount('#app');
 </script>
