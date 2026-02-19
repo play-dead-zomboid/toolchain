@@ -130,7 +130,7 @@ Vue.createApp({
       const lines = this.dataString.split(/\r?\n/);
 
       const isSteamHeader = (line) =>
-        line.startsWith('#') && line.includes('steamcommunity.com/workshop/');
+        line.startsWith('#') && line.includes('steamcommunity.com/');
 
       const nextDataLine = (startIndex) => {
         let i = startIndex;
