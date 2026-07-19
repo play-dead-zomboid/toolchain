@@ -70,16 +70,24 @@ You need **Python 3** installed. Then:
 
 4. Everything under [`output/`](output/) is regenerated. Commit it if it changed.
 
-### pzserver.ini — keep this current
+### pzserver.ini — you must supply this, and it is NOT in the repo
 
 This tool reads `pzserver.ini` **from this folder**, not from the live server and
 not from a season folder. It only scores mods listed there (both the
 `WorkshopItems=` and `Mods=` lines), so other servers' downloads sitting in your
 Steam folder are ignored.
 
-That means the copy here is a **snapshot**. When the server's mod list changes,
-copy the live `pzserver.ini` over the one in this folder before re-running —
-otherwise you are scoring last season's mod list and won't be told.
+**It is deliberately gitignored and will never be committed.** The live server
+config contains the Discord bot token, the RCON password, and the server join
+password — none of which belong in a public repo. So:
+
+    copy the live pzserver.ini into this folder before running.
+
+If it's missing, `generate.py` will fail — that's intended. Don't work around it
+by committing the file.
+
+The copy here is also a **snapshot**. When the server's mod list changes, refresh
+it before re-running, or you're scoring last season's mod list and won't be told.
 
 ---
 

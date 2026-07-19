@@ -1,2 +1,7 @@
 __pycache__/
 *.pyc
+
+# NEVER commit this. The live server config holds the Discord bot token, the
+# RCON password, and the server join password. Supply it locally instead --
+# see README.md ("pzserver.ini -- keep this current").
+pzserver.ini
