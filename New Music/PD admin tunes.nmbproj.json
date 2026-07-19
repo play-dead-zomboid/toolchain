@@ -1,0 +1,2613 @@
+{
+  "schema_version": 1,
+  "mod_name": "Play Dead - Admin Tunes",
+  "mod_id": "PDAdminTunes",
+  "parent_mod_id": "NewMusic",
+  "author": "Zark",
+  "workshop_poster_path": "C:/play_dead/Art assets/PDAdminTunes.jpg",
+  "write_mod_name_on_poster": true,
+  "ogg_output_folder": "C:/Users/rober/Music/Symphex Downloads/out",
+  "workshop_output_folder": "C:\\Users\\rober\\Zomboid\\Workshop",
+  "sample_rate": 44100,
+  "compression_quality": 0.5,
+  "reencode_existing_ogg": true,
+  "automatic_textures_enabled": true,
+  "media_rows": [
+    {
+      "row_id": 1,
+      "media_name": "Zark's Mixtape - Around The World",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Around The World\\Advice - The Pillows.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Advice - The Pillows-d4f70c11ae7f.ogg",
+          "display_label": "Advice - The Pillows",
+          "duration": "00:03:35",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Around The World\\Disco (Bad dance doesn't matter) - Chelmico.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Disco (Bad dance doesn't matter) - Chelmico-196e4f163b0b.ogg",
+          "display_label": "Disco (Bad dance doesn't matter) - Chelmico",
+          "duration": "00:04:00",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Around The World\\leap for joy - DOBERMAN.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\leap for joy - DOBERMAN-53be9a861193.ogg",
+          "display_label": "leap for joy - DOBERMAN",
+          "duration": "00:03:04",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Around The World\\Sengoku Aika - Sasaki Shiori.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Sengoku Aika - Sasaki Shiori-a681b69c3bd0.ogg",
+          "display_label": "Sengoku Aika - Sasaki Shiori",
+          "duration": "00:04:08",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Around The World\\Easy Breezy - chelmico.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Easy Breezy - chelmico-5224d5ada645.ogg",
+          "display_label": "Easy Breezy - chelmico",
+          "duration": "00:03:39",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Around The World\\Haryana Roadways - Badshah & Fazilpuria.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Haryana Roadways - Badshah & Fazilpuria-c93ddad9d8c9.ogg",
+          "display_label": "Haryana Roadways - Badshah & Fazilpuria",
+          "duration": "00:03:16",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Around The World\\La Banda Borracha - La Lupita.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\La Banda Borracha - La Lupita-c5cb4fbdf321.ogg",
+          "display_label": "La Banda Borracha - La Lupita",
+          "duration": "00:03:34",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Around The World\\Urameshiya (ft. Christopher Bowes).ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Urameshiya (ft. Christopher Bowes)-9ceda87cf286.ogg",
+          "display_label": "Urameshiya (ft. Christopher Bowes)",
+          "duration": "00:04:10",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:1",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 2,
+      "media_name": "Zark's Mixtape - Funktopus",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Funktopus\\I'm Too Funky - Thumpasaurus.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\I'm Too Funky - Thumpasaurus-a09e9ca51f88.ogg",
+          "display_label": "I'm Too Funky - Thumpasaurus",
+          "duration": "00:03:40",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Funktopus\\Love Rollercoaster - Ohio Players.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Love Rollercoaster - Ohio Players-9390be3237a8.ogg",
+          "display_label": "Love Rollercoaster - Ohio Players",
+          "duration": "00:04:28",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Funktopus\\Good Day - Nappy Roots.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Good Day - Nappy Roots-6329b0b4fadd.ogg",
+          "display_label": "Good Day - Nappy Roots",
+          "duration": "00:03:43",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Funktopus\\Nuthin But A G Thang - Dr. Dre.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Nuthin But A G Thang - Dr. Dre-e9a438fbfcaf.ogg",
+          "display_label": "Nuthin But A G Thang - Dr. Dre",
+          "duration": "00:03:58",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Funktopus\\I Dry Heave - PROF.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\I Dry Heave - PROF-ee1294e701c1.ogg",
+          "display_label": "I Dry Heave - PROF",
+          "duration": "00:03:44",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:1",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:15",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 3,
+      "media_name": "Zark's Mixtape - Driving Tunes",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "single",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Road Rage\\A Little Less Conversation - Elvis Presley.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\A Little Less Conversation - Elvis Presley-a02e2ed81584.ogg",
+          "display_label": "A Little Less Conversation - Elvis Presley",
+          "duration": "00:03:34",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Road Rage\\Anxiety - Optimus Rhyme.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Anxiety - Optimus Rhyme-146792dbd722.ogg",
+          "display_label": "Anxiety - Optimus Rhyme",
+          "duration": "00:03:15",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Road Rage\\Ballroom Blitz - Sweet.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Ballroom Blitz - Sweet-0e51df6eacce.ogg",
+          "display_label": "Ballroom Blitz - Sweet",
+          "duration": "00:03:59",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Road Rage\\Danger! High Voltage - Electric Six.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Danger! High Voltage - Electric Six-b5bcc5f8ff76.ogg",
+          "display_label": "Danger! High Voltage - Electric Six",
+          "duration": "00:03:47",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Road Rage\\Love Your Money - Daisy Chainsaw.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Love Your Money - Daisy Chainsaw-32739f56f8ff.ogg",
+          "display_label": "Love Your Money - Daisy Chainsaw",
+          "duration": "00:02:25",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Road Rage\\Nitrus - Dick Dale.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Nitrus - Dick Dale-85a947bec2b1.ogg",
+          "display_label": "Nitrus - Dick Dale",
+          "duration": "00:03:30",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Road Rage\\The Struggle - Scroobius Pip.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\The Struggle - Scroobius Pip-369ebe320683.ogg",
+          "display_label": "The Struggle - Scroobius Pip",
+          "duration": "00:04:24",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Road Rage\\War Pigs - Black Sabbath.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\War Pigs - Black Sabbath-c459f1a6b9d5.ogg",
+          "display_label": "War Pigs - Black Sabbath",
+          "duration": "00:03:54",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:2",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:12",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 4,
+      "media_name": "Zark's Mixtape - Skankin' and Shankin'",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Skanking and Shanking\\American Jesus - Bad Religion.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\American Jesus - Bad Religion-c4fc69471419.ogg",
+          "display_label": "American Jesus - Bad Religion",
+          "duration": "00:03:18",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Skanking and Shanking\\Amputations - Bad Cop Bad Cop.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Amputations - Bad Cop Bad Cop-5cfbc2199a51.ogg",
+          "display_label": "Amputations - Bad Cop Bad Cop",
+          "duration": "00:02:36",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Skanking and Shanking\\Attitude - Misfits.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Attitude - Misfits-1477e11a149a.ogg",
+          "display_label": "Attitude - Misfits",
+          "duration": "00:01:31",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Skanking and Shanking\\Fortunate Son - Creedence Clearwater Revival.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Fortunate Son - Creedence Clearwater Revival-79325521529c.ogg",
+          "display_label": "Fortunate Son - Creedence Clearwater Revival",
+          "duration": "00:02:17",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Skanking and Shanking\\Funky Kingston - Toots & The Maytals.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Funky Kingston - Toots & The Maytals-3fcc8972dc06.ogg",
+          "display_label": "Funky Kingston - Toots & The Maytals",
+          "duration": "00:03:28",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Skanking and Shanking\\Johnny's Got A Boom Boom - Imelda May.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Johnny's Got A Boom Boom - Imelda May-df58809abbcd.ogg",
+          "display_label": "Johnny's Got A Boom Boom - Imelda May",
+          "duration": "00:02:38",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Skanking and Shanking\\Rebel Girl - Bikini Kill.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Rebel Girl - Bikini Kill-f99a9aac0852.ogg",
+          "display_label": "Rebel Girl - Bikini Kill",
+          "duration": "00:02:37",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Skanking and Shanking\\She Got Arrested - The Interrupters.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\She Got Arrested - The Interrupters-9e7fa4312ca7.ogg",
+          "display_label": "She Got Arrested - The Interrupters",
+          "duration": "00:03:26",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Skanking and Shanking\\Rudi Got Married - Laurel Aitken.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Rudi Got Married - Laurel Aitken-e9c6f0774330.ogg",
+          "display_label": "Rudi Got Married - Laurel Aitken",
+          "duration": "00:03:24",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\Skanking and Shanking\\She's Kerosene - The Interrupters.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\She's Kerosene - The Interrupters-e7fecbfe73bf.ogg",
+          "display_label": "She's Kerosene - The Interrupters",
+          "duration": "00:02:51",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:19",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:8",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 5,
+      "media_name": "Zark's Mixtape - The Lighter Side",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\The Lighter Side\\ButtMachine - That One Guy.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\ButtMachine - That One Guy-cb24e860125b.ogg",
+          "display_label": "ButtMachine - That One Guy",
+          "duration": "00:03:07",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\The Lighter Side\\Dust In A Baggie - Billy Strings.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Dust In A Baggie - Billy Strings-ad79b599f69e.ogg",
+          "display_label": "Dust In A Baggie - Billy Strings",
+          "duration": "00:02:54",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\The Lighter Side\\Rocket Man - William Shatner.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Rocket Man - William Shatner-409444c0ed0c.ogg",
+          "display_label": "Rocket Man - William Shatner",
+          "duration": "00:04:49",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\The Lighter Side\\TREAT ME LIKE A PIRATE - Turquoise Jeep.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\TREAT ME LIKE A PIRATE - Turquoise Jeep-f1806e1c4898.ogg",
+          "display_label": "TREAT ME LIKE A PIRATE - Turquoise Jeep",
+          "duration": "00:03:55",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\The Lighter Side\\The Last Saskatchewan Pirate - ALESTORM.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\The Last Saskatchewan Pirate - ALESTORM-44f30430e612.ogg",
+          "display_label": "The Last Saskatchewan Pirate - ALESTORM",
+          "duration": "00:04:12",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:1",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:3",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 6,
+      "media_name": "Zark's Mixtape - Why So Serious? (A-Side)",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\why so serious\\Goodnight Chicago - Rainbow Kitten Surprise.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Goodnight Chicago - Rainbow Kitten Surprise-d61b2fab5984.ogg",
+          "display_label": "Goodnight Chicago - Rainbow Kitten Surprise",
+          "duration": "00:03:51",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\why so serious\\It's Called Freefall - Rainbow Kitten Surprise.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\It's Called Freefall - Rainbow Kitten Surprise-28f073dba16a.ogg",
+          "display_label": "It's Called Freefall - Rainbow Kitten Surprise",
+          "duration": "00:02:35",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Rob\\why so serious\\The Chemical Worker's Song - Great Big Sea.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\The Chemical Worker's Song - Great Big Sea-4be79f41636e.ogg",
+          "display_label": "The Chemical Worker's Song - Great Big Sea",
+          "duration": "00:02:36",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:3",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:16",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 7,
+      "media_name": "Isfadel's Mixtape - Volume 1",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\ben\\A Work of Art - Ice Nine Kills.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\A Work of Art - Ice Nine Kills-74ddcfcbb319.ogg",
+          "display_label": "A Work of Art - Ice Nine Kills",
+          "duration": "00:03:58",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\ben\\ALWAYS LET YOU DOWN - Bilmuri & A Day to Remember.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\ALWAYS LET YOU DOWN - Bilmuri & A Day to Remember-5031b6e608a9.ogg",
+          "display_label": "ALWAYS LET YOU DOWN - Bilmuri & A Day to Remember",
+          "duration": "00:03:04",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\ben\\Artificial Love - Venjent.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Artificial Love - Venjent-5f7f4a73c3d3.ogg",
+          "display_label": "Artificial Love - Venjent",
+          "duration": "00:04:25",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\ben\\Blackhole - Architects.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Blackhole - Architects-603caa006853.ogg",
+          "display_label": "Blackhole - Architects",
+          "duration": "00:03:30",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\ben\\Circle With Me - Spiritbox.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Circle With Me - Spiritbox-621ac6d97e16.ogg",
+          "display_label": "Circle With Me - Spiritbox",
+          "duration": "00:03:54",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\ben\\Guardian - Poppy.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Guardian - Poppy-872598647ff5.ogg",
+          "display_label": "Guardian - Poppy",
+          "duration": "00:03:15",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\ben\\Hypnosis - Venjent.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Hypnosis - Venjent-073bacd51010.ogg",
+          "display_label": "Hypnosis - Venjent",
+          "duration": "00:03:38",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\ben\\I Will Find You - Whitechapel.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\I Will Find You - Whitechapel-02a745f0bafb.ogg",
+          "display_label": "I Will Find You - Whitechapel",
+          "duration": "00:05:12",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\ben\\Impose - Bad Omens.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Impose - Bad Omens-70430b5d5e5f.ogg",
+          "display_label": "Impose - Bad Omens",
+          "duration": "00:04:23",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\ben\\Life Goes On (feat. Trippie Redd & Ski Mask) - Oliver Tree.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Life Goes On (feat. Trippie Redd & Ski Mask) - Oliver Tree-33bb915e4d9b.ogg",
+          "display_label": "Life Goes On (feat. Trippie Redd & Ski Mask) - Oliver Tree",
+          "duration": "00:03:18",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:17",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 8,
+      "media_name": "Isfadel's Mixtape - Volume 2",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\ben\\Oblivion - Lorna Shore.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Oblivion - Lorna Shore-c595dd557e5a.ogg",
+          "display_label": "Oblivion - Lorna Shore",
+          "duration": "00:08:25",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\ben\\Parasite Eve - Bring Me The Horizon.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Parasite Eve - Bring Me The Horizon-63a00b0ea70f.ogg",
+          "display_label": "Parasite Eve - Bring Me The Horizon",
+          "duration": "00:04:56",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\ben\\TANZNEID - Electric Callboy.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\TANZNEID - Electric Callboy-52e9aefc778f.ogg",
+          "display_label": "TANZNEID - Electric Callboy",
+          "duration": "00:03:24",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\ben\\The Only - Static-X.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\The Only - Static-X-3d8e4d118385.ogg",
+          "display_label": "The Only - Static-X",
+          "duration": "00:02:55",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\ben\\Twisted Transistor - Korn.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Twisted Transistor - Korn-a747eef5bd2c.ogg",
+          "display_label": "Twisted Transistor - Korn",
+          "duration": "00:03:09",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:16",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:5",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 9,
+      "media_name": "Slappy's Slappers - Volume 1",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Horror Punk\\Descending Angel - Misfits.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Descending Angel - Misfits-0575014dcb26.ogg",
+          "display_label": "Descending Angel - Misfits",
+          "duration": "00:03:47",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Horror Punk\\Evil Dead - Stellar Corpses.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Evil Dead - Stellar Corpses-549cdbde704c.ogg",
+          "display_label": "Evil Dead - Stellar Corpses",
+          "duration": "00:03:02",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Horror Punk\\Fiend Club - Misfits.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Fiend Club - Misfits-28b8a04a1def.ogg",
+          "display_label": "Fiend Club - Misfits",
+          "duration": "00:02:52",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Horror Punk\\Die, Die My Darling - Misfits.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Die, Die My Darling - Misfits-59c280a25dc8.ogg",
+          "display_label": "Die, Die My Darling - Misfits",
+          "duration": "00:03:10",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Horror Punk\\In Stitches - Stellar Corpses.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\In Stitches - Stellar Corpses-c2c43f3234ce.ogg",
+          "display_label": "In Stitches - Stellar Corpses",
+          "duration": "00:02:19",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Horror Punk\\Making a Monster (Revamped) - Blitzkid.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Making a Monster (Revamped) - Blitzkid-3187e82b9d01.ogg",
+          "display_label": "Making a Monster (Revamped) - Blitzkid",
+          "duration": "00:02:49",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Horror Punk\\Scream - Misfits.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Scream - Misfits-40f8ccc06b8b.ogg",
+          "display_label": "Scream - Misfits",
+          "duration": "00:02:28",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Horror Punk\\Mr. Sardonicus - Blitzkid.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Mr. Sardonicus - Blitzkid-6490b7dcb702.ogg",
+          "display_label": "Mr. Sardonicus - Blitzkid",
+          "duration": "00:04:02",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Horror Punk\\Vampire Kiss - Stellar Corpses.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Vampire Kiss - Stellar Corpses-0ac74ffdf44b.ogg",
+          "display_label": "Vampire Kiss - Stellar Corpses",
+          "duration": "00:03:30",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:1",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:5",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 10,
+      "media_name": "Slappy's Slappers - Volume 2",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Horror Punk\\The Fog (Revamped) - Blitzkid.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\The Fog (Revamped) - Blitzkid-6a40eec05b57.ogg",
+          "display_label": "The Fog (Revamped) - Blitzkid",
+          "duration": "00:03:56",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Horror Punk\\The Pumpkinpatch Murders - Blitzkid.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\The Pumpkinpatch Murders - Blitzkid-ca1c0255fdc9.ogg",
+          "display_label": "The Pumpkinpatch Murders - Blitzkid",
+          "duration": "00:02:49",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Horror Punk\\Valley of Madness - Stellar Corpses.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Valley of Madness - Stellar Corpses-ba5db210a0a4.ogg",
+          "display_label": "Valley of Madness - Stellar Corpses",
+          "duration": "00:02:08",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Horror Punk\\My Shadow - Stellar Corpses.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\My Shadow - Stellar Corpses-cd1d61bad7e1.ogg",
+          "display_label": "My Shadow - Stellar Corpses",
+          "duration": "00:02:03",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Horror Punk\\Skulls - Misfits.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Skulls - Misfits-ebabe06af930.ogg",
+          "display_label": "Skulls - Misfits",
+          "duration": "00:01:59",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:15",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:11",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 11,
+      "media_name": "Slappy's Slappers - Volume 3 (Nautical Naughtyness)",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Pirate Folk\\Brisbane Harbour - The Dreadnoughts.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Brisbane Harbour - The Dreadnoughts-bca9b76a2b63.ogg",
+          "display_label": "Brisbane Harbour - The Dreadnoughts",
+          "duration": "00:02:23",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Pirate Folk\\Haul & Drag - The Longest Johns.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Haul & Drag - The Longest Johns-5a0a9571bf72.ogg",
+          "display_label": "Haul & Drag - The Longest Johns",
+          "duration": "00:02:08",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Pirate Folk\\Byker Hill - The Longest Johns.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Byker Hill - The Longest Johns-db9044bb5890.ogg",
+          "display_label": "Byker Hill - The Longest Johns",
+          "duration": "00:02:40",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Pirate Folk\\Hammer and the Anvil - The Longest Johns.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Hammer and the Anvil - The Longest Johns-5063b8534e8d.ogg",
+          "display_label": "Hammer and the Anvil - The Longest Johns",
+          "duration": "00:03:19",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Pirate Folk\\Downed And Drowned - The Longest Johns.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Downed And Drowned - The Longest Johns-83fed84f846f.ogg",
+          "display_label": "Downed And Drowned - The Longest Johns",
+          "duration": "00:03:17",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Pirate Folk\\Doggerbank - The Longest Johns.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Doggerbank - The Longest Johns-7c72376ff16a.ogg",
+          "display_label": "Doggerbank - The Longest Johns",
+          "duration": "00:02:40",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Pirate Folk\\Joli Rouge - The Dreadnoughts.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Joli Rouge - The Dreadnoughts-d1bba9ea0e62.ogg",
+          "display_label": "Joli Rouge - The Dreadnoughts",
+          "duration": "00:03:21",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Pirate Folk\\Pique La Baleine - The Dreadnoughts.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Pique La Baleine - The Dreadnoughts-4439476edd48.ogg",
+          "display_label": "Pique La Baleine - The Dreadnoughts",
+          "duration": "00:03:03",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Pirate Folk\\Polka Pit - The Dreadnoughts.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Polka Pit - The Dreadnoughts-c3e6be1a12c7.ogg",
+          "display_label": "Polka Pit - The Dreadnoughts",
+          "duration": "00:03:55",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Pirate Folk\\Problem - The Dreadnoughts.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Problem - The Dreadnoughts-c02e7ddfbe58.ogg",
+          "display_label": "Problem - The Dreadnoughts",
+          "duration": "00:03:38",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Evan-Pirate Folk\\We All Lift Together - The Longest Johns.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\We All Lift Together - The Longest Johns-9db914f42c3c.ogg",
+          "display_label": "We All Lift Together - The Longest Johns",
+          "duration": "00:03:47",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:11",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:5",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 12,
+      "media_name": "The Path less Taken (A Side Only)",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Travis\\Dead Man's Party - Oingo Boingo.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Dead Man's Party - Oingo Boingo-97e9dd9dc314.ogg",
+          "display_label": "Dead Man's Party - Oingo Boingo",
+          "duration": "00:06:19",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Travis\\Punk Rock Girl - The Dead Milkmen.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Punk Rock Girl - The Dead Milkmen-6ffb6fa041ba.ogg",
+          "display_label": "Punk Rock Girl - The Dead Milkmen",
+          "duration": "00:02:38",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Travis\\Xanadu - Olivia Newton-John & Electric Light Orchestra.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Xanadu - Olivia Newton-John & Electric Light Orchestra-8bb8d03004e8.ogg",
+          "display_label": "Xanadu - Olivia Newton-John & Electric Light Orchestra",
+          "duration": "00:03:29",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Travis\\Heading For The Light - The Traveling Wilburys.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Heading For The Light - The Traveling Wilburys-a270410e18c4.ogg",
+          "display_label": "Heading For The Light - The Traveling Wilburys",
+          "duration": "00:03:37",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Travis\\[Hidden Track].ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\[Hidden Track]-b1a5888ec2ae.ogg",
+          "display_label": "[Hidden Track]",
+          "duration": "00:04:34",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:12",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:14",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 13,
+      "media_name": "DeathEmber\u2019s Zombie Smashin Mix",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Deathember\\Bad Company - Five Finger Death Punch.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Bad Company - Five Finger Death Punch-60c498ee153a.ogg",
+          "display_label": "Bad Company - Five Finger Death Punch",
+          "duration": "00:04:17",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Deathember\\Bat Country - Avenged Sevenfold.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Bat Country - Avenged Sevenfold-68e3ab84f2c6.ogg",
+          "display_label": "Bat Country - Avenged Sevenfold",
+          "duration": "00:05:23",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Deathember\\Beggin' - Maneskin.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Beggin' - Maneskin-151bf362d22b.ogg",
+          "display_label": "Beggin' - Maneskin",
+          "duration": "00:03:31",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Deathember\\In the Dark of the Night - Anastasia.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\In the Dark of the Night - Anastasia-5221e8d5cfd5.ogg",
+          "display_label": "In the Dark of the Night - Anastasia",
+          "duration": "00:02:30",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Deathember\\Pirates - Bullets And Octane.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Pirates - Bullets And Octane-601c9725213d.ogg",
+          "display_label": "Pirates - Bullets And Octane",
+          "duration": "00:02:20",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Deathember\\Savior - Rise Against.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Savior - Rise Against-d0c1eedd010f.ogg",
+          "display_label": "Savior - Rise Against",
+          "duration": "00:04:01",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Deathember\\So What - P!nk.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\So What - P!nk-7a415b80a60d.ogg",
+          "display_label": "So What - P!nk",
+          "duration": "00:03:35",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Deathember\\The Emptiness Machine - Linkin Park.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\The Emptiness Machine - Linkin Park-b922aa39602b.ogg",
+          "display_label": "The Emptiness Machine - Linkin Park",
+          "duration": "00:03:14",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Deathember\\The Four Horsemen - Metallica.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\The Four Horsemen - Metallica-9e3f2092bb70.ogg",
+          "display_label": "The Four Horsemen - Metallica",
+          "duration": "00:07:13",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Deathember\\You're Gonna Go Far, Kid - The Offspring.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\You're Gonna Go Far, Kid - The Offspring-531781689d5d.ogg",
+          "display_label": "You're Gonna Go Far, Kid - The Offspring",
+          "duration": "00:02:58",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:1",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:17",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 14,
+      "media_name": "BreElla's Backyard Boogie",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Ella\\Alright - Darius Rucker.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Alright - Darius Rucker-b6fa77b70bcf.ogg",
+          "display_label": "Alright - Darius Rucker",
+          "duration": "00:03:53",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Ella\\Axel F - Crazy Frog.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Axel F - Crazy Frog-d84bd4e29cc6.ogg",
+          "display_label": "Axel F - Crazy Frog",
+          "duration": "00:02:52",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Ella\\Beautiful Things - Benson Boone.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Beautiful Things - Benson Boone-39f4060eac64.ogg",
+          "display_label": "Beautiful Things - Benson Boone",
+          "duration": "00:02:57",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Ella\\Golden - Huntrix.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Golden - Huntrix-0aa3636044d4.ogg",
+          "display_label": "Golden - Huntrix",
+          "duration": "00:03:12",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Ella\\High Hopes - Panic! At The Disco.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\High Hopes - Panic! At The Disco-f21c5eb19f18.ogg",
+          "display_label": "High Hopes - Panic! At The Disco",
+          "duration": "00:03:12",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Ella\\Monster.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Monster-f37bfce75785.ogg",
+          "display_label": "Monster",
+          "duration": "00:02:58",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Ella\\Soda Pop - Saja Boys.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Soda Pop - Saja Boys-cea2d987a20e.ogg",
+          "display_label": "Soda Pop - Saja Boys",
+          "duration": "00:02:30",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Ella\\The Lazy Song - Bruno Mars.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\The Lazy Song - Bruno Mars-a06484474292.ogg",
+          "display_label": "The Lazy Song - Bruno Mars",
+          "duration": "00:03:19",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Ella\\The Monster - Eminem ft. Rihanna.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\The Monster - Eminem ft. Rihanna-51695109b6a7.ogg",
+          "display_label": "The Monster - Eminem ft. Rihanna",
+          "duration": "00:04:12",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Ella\\Thunder - Imagine Dragons.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Thunder - Imagine Dragons-4fb513ef6141.ogg",
+          "display_label": "Thunder - Imagine Dragons",
+          "duration": "00:03:03",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Ella\\What Is Love - Haddaway.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\What Is Love - Haddaway-60697028fefb.ogg",
+          "display_label": "What Is Love - Haddaway",
+          "duration": "00:04:29",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:2",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 15,
+      "media_name": "Whiskey Tango Foxtrot",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Whiskey\\That Smell - Lynyrd Skynyrd.ogg",
+          "cached_ogg_path": "",
+          "display_label": "That Smell - Lynyrd Skynyrd",
+          "duration": "00:05:49",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Whiskey\\I Was Made For Lovin' You - Kiss.ogg",
+          "cached_ogg_path": "",
+          "display_label": "I Was Made For Lovin' You - Kiss",
+          "duration": "00:03:58",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Whiskey\\Miss You - The Rolling Stones.ogg",
+          "cached_ogg_path": "",
+          "display_label": "Miss You - The Rolling Stones",
+          "duration": "00:04:48",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Whiskey\\Black - Pearl Jam.ogg",
+          "cached_ogg_path": "",
+          "display_label": "Black - Pearl Jam",
+          "duration": "00:05:45",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Whiskey\\Would - Alice In Chains.ogg",
+          "cached_ogg_path": "",
+          "display_label": "Would - Alice In Chains",
+          "duration": "00:03:27",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Whiskey\\Night Moves - Bob Seger & The Silver Bullet Band.ogg",
+          "cached_ogg_path": "",
+          "display_label": "Night Moves - Bob Seger & The Silver Bullet Band",
+          "duration": "00:04:27",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Whiskey\\Cumbersome - Seven Mary Three.ogg",
+          "cached_ogg_path": "",
+          "display_label": "Cumbersome - Seven Mary Three",
+          "duration": "00:03:59",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\Whiskey\\Flirtin' with Disaster - Molly Hatchet.ogg",
+          "cached_ogg_path": "",
+          "display_label": "Flirtin' with Disaster - Molly Hatchet",
+          "duration": "00:04:59",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:19",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:17",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 16,
+      "media_name": "UwU's Mega Mix Volume 1",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\ARTIFICIAL SUICIDE - Bad Omens.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\ARTIFICIAL SUICIDE - Bad Omens-3ea2b7d8ef09.ogg",
+          "display_label": "ARTIFICIAL SUICIDE - Bad Omens",
+          "duration": "00:03:16",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Back From The Dead - Halestorm.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Back From The Dead - Halestorm-5c89686fbd3b.ogg",
+          "display_label": "Back From The Dead - Halestorm",
+          "duration": "00:03:32",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Black Honey - Thrice.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Black Honey - Thrice-3fd9c4963c47.ogg",
+          "display_label": "Black Honey - Thrice",
+          "duration": "00:04:18",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Blue On Black - Five Finger Death Punch.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Blue On Black - Five Finger Death Punch-2db0acd8a13e.ogg",
+          "display_label": "Blue On Black - Five Finger Death Punch",
+          "duration": "00:05:15",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Circle The Drain - Wage War.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Circle The Drain - Wage War-18187987cb9c.ogg",
+          "display_label": "Circle The Drain - Wage War",
+          "duration": "00:03:33",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Dethrone - Bad Omens.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Dethrone - Bad Omens-168c435f44a3.ogg",
+          "display_label": "Dethrone - Bad Omens",
+          "duration": "00:03:29",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Die For You - Starset.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Die For You - Starset-ffab85e28024.ogg",
+          "display_label": "Die For You - Starset",
+          "duration": "00:05:27",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Doomed - Maphra.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Doomed - Maphra-57a443ce90d0.ogg",
+          "display_label": "Doomed - Maphra",
+          "duration": "00:04:35",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Drown - Kim Dracula.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Drown - Kim Dracula-efc1852a8064.ogg",
+          "display_label": "Drown - Kim Dracula",
+          "duration": "00:03:06",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Dying To Love - Bad Omens.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Dying To Love - Bad Omens-6d78a26817fe.ogg",
+          "display_label": "Dying To Love - Bad Omens",
+          "duration": "00:04:33",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Fight Back - NEFFEX.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Fight Back - NEFFEX-cdbb46919a8c.ogg",
+          "display_label": "Fight Back - NEFFEX",
+          "duration": "00:03:17",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Gone Away - Five Finger Death Punch.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Gone Away - Five Finger Death Punch-4b7d851b7f06.ogg",
+          "display_label": "Gone Away - Five Finger Death Punch",
+          "duration": "00:05:02",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Heavy Is the Crown - Linkin Park.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Heavy Is the Crown - Linkin Park-248f4a75e721.ogg",
+          "display_label": "Heavy Is the Crown - Linkin Park",
+          "duration": "00:02:47",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Let You Down - NF.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Let You Down - NF-657e3ce16f95.ogg",
+          "display_label": "Let You Down - NF",
+          "duration": "00:03:36",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Make Believe - Memphis May Fire.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Make Believe - Memphis May Fire-ba4631cce310.ogg",
+          "display_label": "Make Believe - Memphis May Fire",
+          "duration": "00:03:49",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Make Me Famous - Kim Dracula.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Make Me Famous - Kim Dracula-e06fa21b745f.ogg",
+          "display_label": "Make Me Famous - Kim Dracula",
+          "duration": "00:03:58",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\NAILS - Wage War.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\NAILS - Wage War-82dbf069feed.ogg",
+          "display_label": "NAILS - Wage War",
+          "duration": "00:02:34",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Scars - I Prevail.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Scars - I Prevail-1091a74c742b.ogg",
+          "display_label": "Scars - I Prevail",
+          "duration": "00:04:26",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Specter - Bad Omens.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Specter - Bad Omens-5b85a3d53c01.ogg",
+          "display_label": "Specter - Bad Omens",
+          "duration": "00:05:01",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Talk to a friend - Rain City Drive.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Talk to a friend - Rain City Drive-ceef7f26b875.ogg",
+          "display_label": "Talk to a friend - Rain City Drive",
+          "duration": "00:03:31",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\The Devil In You - ALESTI feat. The Broken View.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\The Devil In You - ALESTI feat. The Broken View-b60d7fd9af0c.ogg",
+          "display_label": "The Devil In You - ALESTI feat. The Broken View",
+          "duration": "00:03:12",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\The End Of Heartache - Killswitch Engage.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\The End Of Heartache - Killswitch Engage-8f915e55b225.ogg",
+          "display_label": "The End Of Heartache - Killswitch Engage",
+          "duration": "00:04:05",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\This Is The Time (Ballast) - Nothing More.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\This Is The Time (Ballast) - Nothing More-16e60eb94127.ogg",
+          "display_label": "This Is The Time (Ballast) - Nothing More",
+          "duration": "00:04:47",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Voices - Motionless In White.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Voices - Motionless In White-a797fe48388b.ogg",
+          "display_label": "Voices - Motionless In White",
+          "duration": "00:03:43",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Voices In My Head - Falling In Reverse.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Voices In My Head - Falling In Reverse-39563aeedcc1.ogg",
+          "display_label": "Voices In My Head - Falling In Reverse",
+          "duration": "00:03:10",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:16",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:16",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": true
+    },
+    {
+      "row_id": 17,
+      "media_name": "UwU's mega mix Volume 2",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Voices - Motionless In White.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Voices - Motionless In White-a797fe48388b.ogg",
+          "display_label": "Voices - Motionless In White",
+          "duration": "00:03:43",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Fight Back - NEFFEX.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Fight Back - NEFFEX-cdbb46919a8c.ogg",
+          "display_label": "Fight Back - NEFFEX",
+          "duration": "00:03:17",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Let You Down - NF.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Let You Down - NF-657e3ce16f95.ogg",
+          "display_label": "Let You Down - NF",
+          "duration": "00:03:36",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\This Is The Time (Ballast) - Nothing More.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\This Is The Time (Ballast) - Nothing More-16e60eb94127.ogg",
+          "display_label": "This Is The Time (Ballast) - Nothing More",
+          "duration": "00:04:47",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Talk to a friend - Rain City Drive.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Talk to a friend - Rain City Drive-ceef7f26b875.ogg",
+          "display_label": "Talk to a friend - Rain City Drive",
+          "duration": "00:03:31",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Die For You - Starset.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Die For You - Starset-ffab85e28024.ogg",
+          "display_label": "Die For You - Starset",
+          "duration": "00:05:27",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Black Honey - Thrice.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Black Honey - Thrice-3fd9c4963c47.ogg",
+          "display_label": "Black Honey - Thrice",
+          "duration": "00:04:18",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\Circle The Drain - Wage War.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\Circle The Drain - Wage War-18187987cb9c.ogg",
+          "display_label": "Circle The Drain - Wage War",
+          "duration": "00:03:33",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\UwU\\NAILS - Wage War.ogg",
+          "cached_ogg_path": "C:\\Users\\rober\\Music\\Symphex Downloads\\out\\44100hz - Medium\\NAILS - Wage War-82dbf069feed.ogg",
+          "display_label": "NAILS - Wage War",
+          "duration": "00:02:34",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:12",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:13",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    }
+  ],
+  "custom_assets": {
+    "case": [],
+    "cassette": [],
+    "vinyl": [],
+    "cd": [],
+    "jacket": [],
+    "cd_cover": []
+  },
+  "generated_assets": []
+}

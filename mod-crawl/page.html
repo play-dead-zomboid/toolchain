@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Steam Workshop Mods</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.37/dist/vue.global.prod.js"></script>
+</head>
+<body>
+    <div id="app" class="container mt-4">
+        <h1 class="mb-4">Play Dead: Steam Workshop Mods</h1>
+        <div class="row">
+            <div class="col-6">
+                <div>
+                    <button @click="copyToClipboard(modIdsString)">
+                        Copy Mod IDs
+                    </button>
+                </div>
+                <div>
+                    <button @click="copyToClipboard(workshopIdsString)">
+                        Copy Workshop Item IDs
+                    </button>
+                </div>
+                <div>
+                    <button @click="copyToClipboard(mapIdsString)">
+                        Copy map folders
+                    </button>
+                </div>
+            </div>
+            <div class="col-6">
+                <input v-model="searchQuery" type="text" class="form-control" placeholder="Search by Workshop ID, Mod ID, or Title">
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="tagFilter" class="form-label">Filter by Tag:</label>
+            <select v-model="selectedTag" class="form-select">
+                <option value="">Show All</option>
+                <option v-for="tag in allTags" :value="tag">{{ tag }}</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="accordion col-6" id="workshopAccordion">
+                <div v-for="(mod, index) in filteredMods" :key="mod.id" class="accordion-item">
+                    
+                    <h2 class="accordion-header" :id="'heading' + index">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            :data-bs-target="'#collapse' + index"
+                            @click="setActiveIndex(index)">
+                            {{ mod.title }}
+                        </button>
+                    </h2>
+                    <div :id="'collapse' + index" class="accordion-collapse collapse" data-bs-parent="#workshopAccordion">
+                        <div class="accordion-body">
+                            <p><strong>ID:</strong> {{ mod.id }}</p>
+                            <p><strong>Mod ID:</strong> {{ mod.mod_id }}</p>
+                            <p v-if="mod.reason"><strong>removed because:</strong> {{ mod.reason }}</p>
+                            <p><strong>Tags:</strong> <span v-if="mod.tags.length">{{ mod.tags.join(', ') }}</span><span
+                                    v-else>Other</span></p>
+                            <a :href="'https://steamcommunity.com/sharedfiles/filedetails/?id=' + mod.id" target="_blank">View
+                                on Steam</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div v-if="activeIndex !== null && filteredMods[activeIndex]" class="card">
+                    <div class="card-header">
+                        <h5>{{ filteredMods[activeIndex].title }}</h5>
+                    </div>
+                    <div class="card-body">
+                        <p>{{ filteredMods[activeIndex].description }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div v-if="selectedTag" class="mt-5">
+            <h2>Tag Missing</h2>
+            <div v-for="(mod, index) in missingMods" :key="'missing-' + mod.id" class="card mb-3">
+                <h5 class="card-title">{{ mod.title }}</h5>
+              <div class="card-body">
+                <h5 class="card-title">{{ mod.title }}</h5>
+                <p><strong>Workshop ID:</strong> {{ mod.id }}</p>
+                <p><strong>Mod ID:</strong> {{ mod.mod_id }}</p>
+                <p>{{ mod.description }}</p>
+                <p>
+                  <strong>Tags:</strong>
+                  <span v-if="mod.tags.length">{{ mod.tags.join(', ') }}</span>
+                  <span v-else>Other</span>
+                </p>
+                <a :href="'https://steamcommunity.com/sharedfiles/filedetails/?id=' + mod.id" target="_blank">View on Steam</a>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <script>
+    const app = Vue.createApp({
+        data() {
+            return {
+                selectedTag: "",
+                searchQuery: "",
+                activeIndex: null,
+                mods: [],  // This will be filled dynamically
+            };
+        },
+        computed: {
+            allTags() {
+                const tags = new Set();
+                this.mods.forEach(mod => mod.tags.length ? mod.tags.forEach(tag => tags.add(tag)) : tags.add("Other"));
+                return Array.from(tags);
+            },
+            filteredMods() {
+                let mods = this.mods;
+                if (this.selectedTag) {
+                    mods = this.selectedTag === "Other"
+                        ? mods.filter(mod => mod.tags.length === 0)
+                        : mods.filter(mod => mod.tags.includes(this.selectedTag));
+                }
+                if (this.searchQuery) {
+                    const q = this.searchQuery.trim().toLowerCase();
+                    mods = mods.filter(mod =>
+                        mod.id.toLowerCase().includes(q) ||
+                        (mod.mod_id && mod.mod_id.toLowerCase().includes(q)) ||
+                        (mod.title && mod.title.toLowerCase().includes(q))
+                    );
+                }
+                return mods;
+            },
+            missingMods() {
+                if (!this.selectedTag) return [];
+                return this.selectedTag === "Other"
+                    ? this.mods.filter(mod => mod.tags.length > 0)
+                    : this.mods.filter(mod => !mod.tags.includes(this.selectedTag));
+            },
+            modIdsString() {
+                return "Mods=" + this.mods.map(m => m.mod_id).join(";");
+            },
+            workshopIdsString() {
+                return "WorkshopItems="+ this.mods.map(m => m.id).join(";");
+            },
+            mapIdsString() {
+                return "Map=" +  this.mods.filter(m => m.map_folder).map(m => m.map_folder).join(";") + ";Muldraugh, KY";
+            }
+        },
+        methods: {
+          copyToClipboard(str) {
+              navigator.clipboard.writeText(str);
+          },
+          setActiveIndex(index) {
+            this.activeIndex = this.activeIndex === index ? null : index;
+        }
+      }
+    });
+
+    app.mount("#app");
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

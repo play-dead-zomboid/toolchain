@@ -1,0 +1,3556 @@
+{
+  "schema_version": 1,
+  "mod_name": "Uwu Tunes Remastered",
+  "mod_id": "UwUTunesRemastered",
+  "parent_mod_id": "NewMusic",
+  "author": "UwU",
+  "workshop_poster_path": "C:/play_dead/Art assets/UwUTunes-Remasterd.jpg",
+  "write_mod_name_on_poster": true,
+  "ogg_output_folder": "C:/play_dead/New Music/UwUTunesRemastered",
+  "workshop_output_folder": "C:\\Users\\rober\\Zomboid\\Workshop",
+  "sample_rate": 44100,
+  "compression_quality": 0.5,
+  "reencode_existing_ogg": true,
+  "automatic_textures_enabled": true,
+  "media_rows": [
+    {
+      "row_id": 1,
+      "media_name": "Alternative Rock - Volume 1",
+      "selected_side": "B",
+      "preview_mode": "world",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 1\\A Girl Like You - Edwyn Collins.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\A Girl Like You - Edwyn Collins-aa42c7a082aa.ogg",
+          "display_label": "A Girl Like You - Edwyn Collins",
+          "duration": "00:03:57",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 1\\Birdhouse in Your Soul - They Might Be Giants.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Birdhouse in Your Soul - They Might Be Giants-0bc110d922bf.ogg",
+          "display_label": "Birdhouse in Your Soul - They Might Be Giants",
+          "duration": "00:03:19",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 1\\Celebrity Skin - Hole.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Celebrity Skin - Hole-c2ca086d7c17.ogg",
+          "display_label": "Celebrity Skin - Hole",
+          "duration": "00:02:43",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 1\\Iris - The Goo Goo Dolls.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Iris - The Goo Goo Dolls-cd3e8c3b6edb.ogg",
+          "display_label": "Iris - The Goo Goo Dolls",
+          "duration": "00:04:50",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 1\\Living for the Weekend - Hard-Fi.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Living for the Weekend - Hard-Fi-f052d9a0f24d.ogg",
+          "display_label": "Living for the Weekend - Hard-Fi",
+          "duration": "00:03:42",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 1\\Regular John - Queens of the Stone Age.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Regular John - Queens of the Stone Age-3027d8987637.ogg",
+          "display_label": "Regular John - Queens of the Stone Age",
+          "duration": "00:04:38",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 1\\Screamager - Therapy_.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Screamager - Therapy_-96676c1190d7.ogg",
+          "display_label": "Screamager - Therapy_",
+          "duration": "00:02:37",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 1\\Thank U (Remix) - Alanis Morissette.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Thank U (Remix) - Alanis Morissette-88efd864b88e.ogg",
+          "display_label": "Thank U (Remix) - Alanis Morissette",
+          "duration": "00:04:19",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 1\\What's Up_ - 4 Non Blondes.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\What's Up_ - 4 Non Blondes-b7bfb45f5b0e.ogg",
+          "display_label": "What's Up_ - 4 Non Blondes",
+          "duration": "00:04:56",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:1",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:2",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:15",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:11",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:11",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 2,
+      "media_name": "Alternative Rock - Volume 2",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 2\\Don't Speak - No Doubt.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Don't Speak - No Doubt-b2bc0998486a.ogg",
+          "display_label": "Don't Speak - No Doubt",
+          "duration": "00:04:23",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 2\\Even Better Than The Real Thing - U2.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Even Better Than The Real Thing - U2-ac6a347865c4.ogg",
+          "display_label": "Even Better Than The Real Thing - U2",
+          "duration": "00:03:41",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 2\\Girl From Mars - Ash.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Girl From Mars - Ash-f97e0ae44b21.ogg",
+          "display_label": "Girl From Mars - Ash",
+          "duration": "00:03:29",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 2\\Ironic (2015 Remaster) - Alanis Morissette.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Ironic (2015 Remaster) - Alanis Morissette-64b9a5f6391b.ogg",
+          "display_label": "Ironic (2015 Remaster) - Alanis Morissette",
+          "duration": "00:03:50",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 2\\Last Goodbye - Jeff Buckley.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Last Goodbye - Jeff Buckley-06f22b7c93dc.ogg",
+          "display_label": "Last Goodbye - Jeff Buckley",
+          "duration": "00:04:36",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 2\\Oblivion - Terrorvision.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Oblivion - Terrorvision-1cf9b3cdffe4.ogg",
+          "display_label": "Oblivion - Terrorvision",
+          "duration": "00:03:04",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 2\\Sunburn - Muse.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Sunburn - Muse-dbd0da2aafc1.ogg",
+          "display_label": "Sunburn - Muse",
+          "duration": "00:03:54",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 2\\Tequila - Terrorvision.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Tequila - Terrorvision-d6005c577c52.ogg",
+          "display_label": "Tequila - Terrorvision",
+          "duration": "00:03:52",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 2\\The Bartender And The Thief - Stereophonics.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\The Bartender And The Thief - Stereophonics-86f3b36a0076.ogg",
+          "display_label": "The Bartender And The Thief - Stereophonics",
+          "duration": "00:02:55",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:11",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 3,
+      "media_name": "Alternative Rock - Volume 3",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 3\\Cash Machine - Hard-Fi.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Cash Machine - Hard-Fi-40aa93da47ec.ogg",
+          "display_label": "Cash Machine - Hard-Fi",
+          "duration": "00:03:42",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 3\\Cornflake Girl - Tori Amos.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Cornflake Girl - Tori Amos-2326fbab675b.ogg",
+          "display_label": "Cornflake Girl - Tori Amos",
+          "duration": "00:05:06",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 3\\Falling - Julee Cruise.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Falling - Julee Cruise-6aa099d023e9.ogg",
+          "display_label": "Falling - Julee Cruise",
+          "duration": "00:05:22",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 3\\Hedonism (Just Because You Feel Good) - Skunk Anansie.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Hedonism (Just Because You Feel Good) - Skunk Anansie-50a177c8fb86.ogg",
+          "display_label": "Hedonism (Just Because You Feel Good) - Skunk Anansie",
+          "duration": "00:03:27",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 3\\If It Makes You Happy - Sheryl Crow.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\If It Makes You Happy - Sheryl Crow-bb1cd2658550.ogg",
+          "display_label": "If It Makes You Happy - Sheryl Crow",
+          "duration": "00:05:23",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 3\\One Week - Barenaked Ladies.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\One Week - Barenaked Ladies-d665332bf67b.ogg",
+          "display_label": "One Week - Barenaked Ladies",
+          "duration": "00:02:50",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 3\\Ready to Go - Republica.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Ready to Go - Republica-1324511dd47a.ogg",
+          "display_label": "Ready to Go - Republica",
+          "duration": "00:05:02",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 3\\Spaceman - Babylon Zoo.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Spaceman - Babylon Zoo-98f13f4f39a2.ogg",
+          "display_label": "Spaceman - Babylon Zoo",
+          "duration": "00:04:03",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 3\\Zombie - The Cranberries.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Zombie - The Cranberries-4b67819b9ca5.ogg",
+          "display_label": "Zombie - The Cranberries",
+          "duration": "00:05:06",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:12",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:13",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 4,
+      "media_name": "Alternative Rock - Volume 4",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 4\\Easy - Faith No More.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Easy - Faith No More-200694e33f52.ogg",
+          "display_label": "Easy - Faith No More",
+          "duration": "00:03:08",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 4\\Hard to Beat - Hard-Fi.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Hard to Beat - Hard-Fi-b441de01b0f7.ogg",
+          "display_label": "Hard to Beat - Hard-Fi",
+          "duration": "00:04:13",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 4\\In the Meantime - Spacehog.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\In the Meantime - Spacehog-e022d09067d3.ogg",
+          "display_label": "In the Meantime - Spacehog",
+          "duration": "00:05:00",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 4\\Mmm Mmm Mmm Mmm - Crash Test Dummies.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Mmm Mmm Mmm Mmm - Crash Test Dummies-8f9fe50ae4c6.ogg",
+          "display_label": "Mmm Mmm Mmm Mmm - Crash Test Dummies",
+          "duration": "00:03:47",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 4\\Mr. Jones - Counting Crows.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Mr. Jones - Counting Crows-75990f08d558.ogg",
+          "display_label": "Mr. Jones - Counting Crows",
+          "duration": "00:04:32",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 4\\Place Your Hands - Reef.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Place Your Hands - Reef-312af239e393.ogg",
+          "display_label": "Place Your Hands - Reef",
+          "duration": "00:03:39",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 4\\Suicide Blonde - INXS.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Suicide Blonde - INXS-4f1fd82cd06b.ogg",
+          "display_label": "Suicide Blonde - INXS",
+          "duration": "00:03:53",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 4\\What's The Frequency Kenneth_ - R.E.M..ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\What's The Frequency Kenneth_ - R.E.M.-6c5f4cfcdf65.ogg",
+          "display_label": "What's The Frequency Kenneth_ - R.E.M.",
+          "duration": "00:04:01",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Alternative Rock\\Volume 4\\You Oughta Know (2015 Remaster) - Alanis Morissette.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\You Oughta Know (2015 Remaster) - Alanis Morissette-1ec0ff02e510.ogg",
+          "display_label": "You Oughta Know (2015 Remaster) - Alanis Morissette",
+          "duration": "00:04:10",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:11",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 5,
+      "media_name": "Britpop - Volume 1",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Britpop\\Volume 1\\Beetlebum (2012 Remaster) - Blur.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Beetlebum (2012 Remaster) - Blur-4444147516fd.ogg",
+          "display_label": "Beetlebum (2012 Remaster) - Blur",
+          "duration": "00:05:05",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Britpop\\Volume 1\\Hey Dude - Kula Shaker.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Hey Dude - Kula Shaker-081cc6f88bbc.ogg",
+          "display_label": "Hey Dude - Kula Shaker",
+          "duration": "00:04:09",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Britpop\\Volume 1\\International Velvet - Catatonia.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\International Velvet - Catatonia-e0fef1b66aa5.ogg",
+          "display_label": "International Velvet - Catatonia",
+          "duration": "00:04:24",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Britpop\\Volume 1\\Mulder and Scully - Catatonia.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Mulder and Scully - Catatonia-78b240941f58.ogg",
+          "display_label": "Mulder and Scully - Catatonia",
+          "duration": "00:04:11",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Britpop\\Volume 1\\Richard III - Supergrass.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Richard III - Supergrass-1fd672354178.ogg",
+          "display_label": "Richard III - Supergrass",
+          "duration": "00:03:11",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Britpop\\Volume 1\\She Said - Longpigs.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\She Said - Longpigs-234e23d85f75.ogg",
+          "display_label": "She Said - Longpigs",
+          "duration": "00:04:24",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Britpop\\Volume 1\\Song 2 (2012 Remaster) - Blur.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Song 2 (2012 Remaster) - Blur-855aab307fc5.ogg",
+          "display_label": "Song 2 (2012 Remaster) - Blur",
+          "duration": "00:02:01",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Britpop\\Volume 1\\Trash - Suede.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Trash - Suede-9d2f3d873df2.ogg",
+          "display_label": "Trash - Suede",
+          "duration": "00:04:06",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:17",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:6",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 6,
+      "media_name": "Britpop - Volume 2",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Britpop\\Volume 2\\A Design for Life (2016 Remastered Version) - Manic Street Preachers.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\A Design for Life (2016 Remastered Version) - Manic Street Preachers-1928ad7f12c0.ogg",
+          "display_label": "A Design for Life (2016 Remastered Version) - Manic Street Preachers",
+          "duration": "00:04:18",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Britpop\\Volume 2\\Cigarettes & Alcohol - Oasis.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Cigarettes & Alcohol - Oasis-b0f411f0fd48.ogg",
+          "display_label": "Cigarettes & Alcohol - Oasis",
+          "duration": "00:04:52",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Britpop\\Volume 2\\Connection - Elastica.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Connection - Elastica-aecc3ecc710d.ogg",
+          "display_label": "Connection - Elastica",
+          "duration": "00:02:21",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Britpop\\Volume 2\\Girls and Boys - Blur.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Girls and Boys - Blur-6f3e130340c9.ogg",
+          "display_label": "Girls and Boys - Blur",
+          "duration": "00:04:19",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Britpop\\Volume 2\\Road Rage (Radio Edit) - Catatonia.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Road Rage (Radio Edit) - Catatonia-88650c0d339a.ogg",
+          "display_label": "Road Rage (Radio Edit) - Catatonia",
+          "duration": "00:04:02",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Britpop\\Volume 2\\The Changingman - Paul Weller.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\The Changingman - Paul Weller-7b68b6f2cbe2.ogg",
+          "display_label": "The Changingman - Paul Weller",
+          "duration": "00:04:02",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Britpop\\Volume 2\\The Riverboat Song - Ocean Colour Scene.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\The Riverboat Song - Ocean Colour Scene-d2058c15b1ef.ogg",
+          "display_label": "The Riverboat Song - Ocean Colour Scene",
+          "duration": "00:04:55",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:16",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 7,
+      "media_name": "Dance - Volume 1",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Dance & Electronic\\Volume 1\\Go West (2003 Remaster) - Pet Shop Boys.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Go West (2003 Remaster) - Pet Shop Boys-4dc53c87079d.ogg",
+          "display_label": "Go West (2003 Remaster) - Pet Shop Boys",
+          "duration": "00:05:04",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Dance & Electronic\\Volume 1\\Groove Is in the Heart - Deee-Lite.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Groove Is in the Heart - Deee-Lite-094217d69416.ogg",
+          "display_label": "Groove Is in the Heart - Deee-Lite",
+          "duration": "00:03:52",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Dance & Electronic\\Volume 1\\How Long - Ultra Nate.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\How Long - Ultra Nate-8dc8a0f4df6d.ogg",
+          "display_label": "How Long - Ultra Nate",
+          "duration": "00:05:09",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Dance & Electronic\\Volume 1\\Not Over Yet - Grace.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Not Over Yet - Grace-d492e7dac2d3.ogg",
+          "display_label": "Not Over Yet - Grace",
+          "duration": "00:04:19",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Dance & Electronic\\Volume 1\\Professional Widow (Armand's Star Trunk Funk Mix) - Tori Amos.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Professional Widow (Armand's Star Trunk Funk Mix) - Tori Amos-589cc074f189.ogg",
+          "display_label": "Professional Widow (Armand's Star Trunk Funk Mix) - Tori Amos",
+          "duration": "00:03:47",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Dance & Electronic\\Volume 1\\Show Me Love - Robin S.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Show Me Love - Robin S-97c4de959294.ogg",
+          "display_label": "Show Me Love - Robin S",
+          "duration": "00:04:12",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:19",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:8",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": true
+    },
+    {
+      "row_id": 8,
+      "media_name": "Funk Rock - Volume 1",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Funk Rock\\Volume 1\\Been Caught Stealing - Jane's Addiction.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Been Caught Stealing - Jane's Addiction-0ffd17a6bf7c.ogg",
+          "display_label": "Been Caught Stealing - Jane's Addiction",
+          "duration": "00:03:35",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Funk Rock\\Volume 1\\John The Fisherman (Album Version) - Primus.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\John The Fisherman (Album Version) - Primus-fdf787e55a1d.ogg",
+          "display_label": "John The Fisherman (Album Version) - Primus",
+          "duration": "00:03:37",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Funk Rock\\Volume 1\\Lump - The Presidents of the United States of America.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Lump - The Presidents of the United States of America-2c1aafa17c9f.ogg",
+          "display_label": "Lump - The Presidents of the United States of America",
+          "duration": "00:02:14",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Funk Rock\\Volume 1\\Pepper - Butthole Surfers.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Pepper - Butthole Surfers-6155601d020e.ogg",
+          "display_label": "Pepper - Butthole Surfers",
+          "duration": "00:04:57",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Funk Rock\\Volume 1\\The Distance - CAKE.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\The Distance - CAKE-530832378e73.ogg",
+          "display_label": "The Distance - CAKE",
+          "duration": "00:03:00",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Funk Rock\\Volume 1\\Two Princes - Spin Doctors.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Two Princes - Spin Doctors-a89caddbd4c7.ogg",
+          "display_label": "Two Princes - Spin Doctors",
+          "duration": "00:04:17",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Funk Rock\\Volume 1\\Under the Bridge - Red Hot Chili Peppers.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Under the Bridge - Red Hot Chili Peppers-0d374ea9fc79.ogg",
+          "display_label": "Under the Bridge - Red Hot Chili Peppers",
+          "duration": "00:04:26",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:3",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 9,
+      "media_name": "Grunge - Volume 1",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Grunge\\Volume 1\\Alive - Pearl Jam.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Alive - Pearl Jam-3ab8fa389ddd.ogg",
+          "display_label": "Alive - Pearl Jam",
+          "duration": "00:05:41",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Grunge\\Volume 1\\Black Hole Sun - Soundgarden.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Black Hole Sun - Soundgarden-42915cc6eb6e.ogg",
+          "display_label": "Black Hole Sun - Soundgarden",
+          "duration": "00:05:19",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Grunge\\Volume 1\\Down in a Hole - Alice in Chains.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Down in a Hole - Alice in Chains-24c8a3d78c3e.ogg",
+          "display_label": "Down in a Hole - Alice in Chains",
+          "duration": "00:05:38",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Grunge\\Volume 1\\Interstate Love Song - Stone Temple Pilots.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Interstate Love Song - Stone Temple Pilots-54b366259760.ogg",
+          "display_label": "Interstate Love Song - Stone Temple Pilots",
+          "duration": "00:03:14",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Grunge\\Volume 1\\Plush - Stone Temple Pilots.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Plush - Stone Temple Pilots-97a2327dfc33.ogg",
+          "display_label": "Plush - Stone Temple Pilots",
+          "duration": "00:05:10",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Grunge\\Volume 1\\Smells Like Teen Spirit - Nirvana.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Smells Like Teen Spirit - Nirvana-5ff9d6f40a62.ogg",
+          "display_label": "Smells Like Teen Spirit - Nirvana",
+          "duration": "00:05:02",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Grunge\\Volume 1\\Tomorrow (Remastered) - Silverchair.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Tomorrow (Remastered) - Silverchair-94bc7208fe97.ogg",
+          "display_label": "Tomorrow (Remastered) - Silverchair",
+          "duration": "00:04:26",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:5",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:1",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 10,
+      "media_name": "Hard Rock - Volume 1",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hard Rock\\Volume 1\\Are You Gonna Go My Way - Lenny Kravitz.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Are You Gonna Go My Way - Lenny Kravitz-57794a099e30.ogg",
+          "display_label": "Are You Gonna Go My Way - Lenny Kravitz",
+          "duration": "00:03:32",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hard Rock\\Volume 1\\Everything About You - Ugly Kid Joe.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Everything About You - Ugly Kid Joe-36fb6b3febb4.ogg",
+          "display_label": "Everything About You - Ugly Kid Joe",
+          "duration": "00:04:21",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hard Rock\\Volume 1\\I Don't Want To Miss A Thing - Aerosmith.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\I Don't Want To Miss A Thing - Aerosmith-311aecb166bd.ogg",
+          "display_label": "I Don't Want To Miss A Thing - Aerosmith",
+          "duration": "00:04:59",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hard Rock\\Volume 1\\Keep The Faith - Bon Jovi.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Keep The Faith - Bon Jovi-9b6121ffafc2.ogg",
+          "display_label": "Keep The Faith - Bon Jovi",
+          "duration": "00:05:47",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hard Rock\\Volume 1\\Let's Get Rocked - Def Leppard.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Let's Get Rocked - Def Leppard-03f366642ead.ogg",
+          "display_label": "Let's Get Rocked - Def Leppard",
+          "duration": "00:04:56",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hard Rock\\Volume 1\\Lit Up - Buckcherry.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Lit Up - Buckcherry-4857c4635706.ogg",
+          "display_label": "Lit Up - Buckcherry",
+          "duration": "00:03:36",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hard Rock\\Volume 1\\November Rain - Guns N' Roses.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\November Rain - Guns N' Roses-d816d1329ca5.ogg",
+          "display_label": "November Rain - Guns N' Roses",
+          "duration": "00:08:58",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hard Rock\\Volume 1\\The Show Must Go On - Queen.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\The Show Must Go On - Queen-a5c82200d12e.ogg",
+          "display_label": "The Show Must Go On - Queen",
+          "duration": "00:04:24",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hard Rock\\Volume 1\\Thunderstruck - AC_DC.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Thunderstruck - AC_DC-9aea08a9ca80.ogg",
+          "display_label": "Thunderstruck - AC_DC",
+          "duration": "00:04:53",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hard Rock\\Volume 1\\Wind Of Change - Scorpions.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Wind Of Change - Scorpions-0b5472a226d3.ogg",
+          "display_label": "Wind Of Change - Scorpions",
+          "duration": "00:05:13",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:13",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:5",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 11,
+      "media_name": "Hip Hop - Volume 1",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hip-Hop\\Volume 1\\Feel So Good - Mase.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Feel So Good - Mase-1183e1b4e895.ogg",
+          "display_label": "Feel So Good - Mase",
+          "duration": "00:03:25",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hip-Hop\\Volume 1\\Got Your Money (Rich Travali. Remix) [feat. Kelis] - Ol Dirty Bastard.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Got Your Money (Rich Travali. Remix) [feat. Kelis] - Ol Dirty Bastard-cda4c46d4d2c.ogg",
+          "display_label": "Got Your Money (Rich Travali. Remix) [feat. Kelis] - Ol Dirty Bastard",
+          "duration": "00:04:00",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hip-Hop\\Volume 1\\Hypnotize (2014 Remaster) - The Notorious B.I.G..ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Hypnotize (2014 Remaster) - The Notorious B.I.G.-93e8a7cd82f5.ogg",
+          "display_label": "Hypnotize (2014 Remaster) - The Notorious B.I.G.",
+          "duration": "00:03:50",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hip-Hop\\Volume 1\\I'll Be Missing You - Diddy (feat. Faith Evans & 112).ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\I'll Be Missing You - Diddy (feat. Faith Evans & 112)-94b93ca75c7d.ogg",
+          "display_label": "I'll Be Missing You - Diddy (feat. Faith Evans & 112)",
+          "duration": "00:05:07",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hip-Hop\\Volume 1\\Informer - Snow.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Informer - Snow-29efc2da8578.ogg",
+          "display_label": "Informer - Snow",
+          "duration": "00:04:17",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Hip-Hop\\Volume 1\\Sabotage (Edited _ 2005 Remaster) - Beastie Boys.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Sabotage (Edited _ 2005 Remaster) - Beastie Boys-24c337ddc3bf.ogg",
+          "display_label": "Sabotage (Edited _ 2005 Remaster) - Beastie Boys",
+          "duration": "00:02:58",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:7",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:2",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 12,
+      "media_name": "Indie Rock - Volume 1",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Indie & College Rock\\Volume 1\\Cannonball - The Breeders.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Cannonball - The Breeders-55aac4320875.ogg",
+          "display_label": "Cannonball - The Breeders",
+          "duration": "00:03:36",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Indie & College Rock\\Volume 1\\It's A Shame About Ray (Remastered) - The Lemonheads.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\It's A Shame About Ray (Remastered) - The Lemonheads-72bcb4cd9626.ogg",
+          "display_label": "It's A Shame About Ray (Remastered) - The Lemonheads",
+          "duration": "00:03:07",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Indie & College Rock\\Volume 1\\Popular - Nada Surf.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Popular - Nada Surf-29c1ee01cd80.ogg",
+          "display_label": "Popular - Nada Surf",
+          "duration": "00:03:48",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Indie & College Rock\\Volume 1\\Stupid Girl - Garbage.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Stupid Girl - Garbage-67bc15903a71.ogg",
+          "display_label": "Stupid Girl - Garbage",
+          "duration": "00:04:18",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Indie & College Rock\\Volume 1\\Sugar Kane - Sonic Youth.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Sugar Kane - Sonic Youth-ae897a8de23c.ogg",
+          "display_label": "Sugar Kane - Sonic Youth",
+          "duration": "00:05:58",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Indie & College Rock\\Volume 1\\Today - The Smashing Pumpkins.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Today - The Smashing Pumpkins-d84556b69995.ogg",
+          "display_label": "Today - The Smashing Pumpkins",
+          "duration": "00:03:21",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Indie & College Rock\\Volume 1\\When I Argue I See Shapes - Idlewild.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\When I Argue I See Shapes - Idlewild-259e2dfaebfd.ogg",
+          "display_label": "When I Argue I See Shapes - Idlewild",
+          "duration": "00:04:25",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:6",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:13",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 13,
+      "media_name": "Indie Rock - Volume 2",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Indie & College Rock\\Volume 2\\Buddy Holly - Weezer.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Buddy Holly - Weezer-7867cefa98de.ogg",
+          "display_label": "Buddy Holly - Weezer",
+          "duration": "00:02:39",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Indie & College Rock\\Volume 2\\Bullet With Butterfly Wings - The Smashing Pumpkins.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Bullet With Butterfly Wings - The Smashing Pumpkins-60b051205df7.ogg",
+          "display_label": "Bullet With Butterfly Wings - The Smashing Pumpkins",
+          "duration": "00:04:19",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Indie & College Rock\\Volume 2\\Creep - Radiohead.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Creep - Radiohead-79c7348bb6b1.ogg",
+          "display_label": "Creep - Radiohead",
+          "duration": "00:03:59",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Indie & College Rock\\Volume 2\\Every You Every Me - Placebo.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Every You Every Me - Placebo-185f5c6cc448.ogg",
+          "display_label": "Every You Every Me - Placebo",
+          "duration": "00:03:34",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Indie & College Rock\\Volume 2\\Loser - Beck.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Loser - Beck-94ca795e2b70.ogg",
+          "display_label": "Loser - Beck",
+          "duration": "00:03:57",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Indie & College Rock\\Volume 2\\Novocaine For The Soul - Eels.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Novocaine For The Soul - Eels-4e88473c4a70.ogg",
+          "display_label": "Novocaine For The Soul - Eels",
+          "duration": "00:03:09",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Indie & College Rock\\Volume 2\\Velouria - Pixies.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Velouria - Pixies-7facc10dcf7c.ogg",
+          "display_label": "Velouria - Pixies",
+          "duration": "00:03:40",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:18",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:6",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 14,
+      "media_name": "Metal - Volume 1",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Metal\\Volume 1\\Enter Sandman - Metallica.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Enter Sandman - Metallica-bcc7e03ea22b.ogg",
+          "display_label": "Enter Sandman - Metallica",
+          "duration": "00:05:31",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Metal\\Volume 1\\Falling Away from Me - Korn.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Falling Away from Me - Korn-b20223ba5dbc.ogg",
+          "display_label": "Falling Away from Me - Korn",
+          "duration": "00:04:31",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Metal\\Volume 1\\Fear Of The Dark (1998 Remastered Version) - Iron Maiden.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Fear Of The Dark (1998 Remastered Version) - Iron Maiden-caf93375c8e0.ogg",
+          "display_label": "Fear Of The Dark (1998 Remastered Version) - Iron Maiden",
+          "duration": "00:07:17",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Metal\\Volume 1\\Midlife Crisis - Faith No More.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Midlife Crisis - Faith No More-c1464e3ff5c2.ogg",
+          "display_label": "Midlife Crisis - Faith No More",
+          "duration": "00:04:20",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Metal\\Volume 1\\Nookie - Limp Bizkit.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Nookie - Limp Bizkit-c0a315eed0e9.ogg",
+          "display_label": "Nookie - Limp Bizkit",
+          "duration": "00:04:50",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Metal\\Volume 1\\Refuse _ Resist - Sepultura.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Refuse _ Resist - Sepultura-fd9e1a2033a7.ogg",
+          "display_label": "Refuse _ Resist - Sepultura",
+          "duration": "00:03:19",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Metal\\Volume 1\\Spit It Out - Slipknot.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Spit It Out - Slipknot-d3bd928bc076.ogg",
+          "display_label": "Spit It Out - Slipknot",
+          "duration": "00:02:40",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Metal\\Volume 1\\The Beautiful People - Marilyn Manson.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\The Beautiful People - Marilyn Manson-a8267e44dab5.ogg",
+          "display_label": "The Beautiful People - Marilyn Manson",
+          "duration": "00:03:39",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:19",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:5",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 15,
+      "media_name": "Metal - Volume 2",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Metal\\Volume 2\\A Tout Le Monde (Remastered 2004) - Megadeth.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\A Tout Le Monde (Remastered 2004) - Megadeth-042bfce64351.ogg",
+          "display_label": "A Tout Le Monde (Remastered 2004) - Megadeth",
+          "duration": "00:04:22",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Metal\\Volume 2\\Closer - Nine Inch Nails.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Closer - Nine Inch Nails-7a4dc29d4c27.ogg",
+          "display_label": "Closer - Nine Inch Nails",
+          "duration": "00:06:13",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Metal\\Volume 2\\Epic - Faith No More.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Epic - Faith No More-f0b5c4fff9e6.ogg",
+          "display_label": "Epic - Faith No More",
+          "duration": "00:04:54",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Metal\\Volume 2\\Green Machine - Kyuss.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Green Machine - Kyuss-c49c7420be08.ogg",
+          "display_label": "Green Machine - Kyuss",
+          "duration": "00:03:38",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Metal\\Volume 2\\Killing In The Name - Rage Against the Machine.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Killing In The Name - Rage Against the Machine-723541f82774.ogg",
+          "display_label": "Killing In The Name - Rage Against the Machine",
+          "duration": "00:05:14",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Metal\\Volume 2\\Whatever - Godsmack.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Whatever - Godsmack-b2c35a019f2a.ogg",
+          "display_label": "Whatever - Godsmack",
+          "duration": "00:03:25",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Metal\\Volume 2\\When Worlds Collide (Album Version) - Powerman 5000.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\When Worlds Collide (Album Version) - Powerman 5000-8f81ea894fad.ogg",
+          "display_label": "When Worlds Collide (Album Version) - Powerman 5000",
+          "duration": "00:02:58",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:7",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:17",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 16,
+      "media_name": "Pop - Volume 1",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 1\\Believe - Cher.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Believe - Cher-8a17851e7c0f.ogg",
+          "display_label": "Believe - Cher",
+          "duration": "00:03:59",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 1\\Glorious - Andreas Johnson.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Glorious - Andreas Johnson-cb7d8a26f3a6.ogg",
+          "display_label": "Glorious - Andreas Johnson",
+          "duration": "00:03:28",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 1\\Goldeneye - Tina Turner.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Goldeneye - Tina Turner-d55aa18f164d.ogg",
+          "display_label": "Goldeneye - Tina Turner",
+          "duration": "00:03:30",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 1\\I Don't Want to Wait - Paula Cole.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\I Don't Want to Wait - Paula Cole-00d7d95d3d30.ogg",
+          "display_label": "I Don't Want to Wait - Paula Cole",
+          "duration": "00:05:20",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 1\\I Love You Always Forever - Donna Lewis.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\I Love You Always Forever - Donna Lewis-be39fad904a7.ogg",
+          "display_label": "I Love You Always Forever - Donna Lewis",
+          "duration": "00:04:00",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 1\\Looking for the Summer - Chris Rea.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Looking for the Summer - Chris Rea-c18c23a9f744.ogg",
+          "display_label": "Looking for the Summer - Chris Rea",
+          "duration": "00:05:03",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 1\\Love Shine a Light - Katrina And The Waves.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Love Shine a Light - Katrina And The Waves-57a5601db6b8.ogg",
+          "display_label": "Love Shine a Light - Katrina And The Waves",
+          "duration": "00:02:54",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 1\\Only Wanna Be with You - 98\u00ba.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Only Wanna Be with You - 98\u00ba-35162fa223f6.ogg",
+          "display_label": "Only Wanna Be with You - 98\u00ba",
+          "duration": "00:03:50",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 1\\Ordinary World - Duran Duran.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Ordinary World - Duran Duran-26b866448ac2.ogg",
+          "display_label": "Ordinary World - Duran Duran",
+          "duration": "00:04:20",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 1\\Sleeping Satellite - Tasmin Archer.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Sleeping Satellite - Tasmin Archer-1534e764b76d.ogg",
+          "display_label": "Sleeping Satellite - Tasmin Archer",
+          "duration": "00:04:19",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:12",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 17,
+      "media_name": "Pop - Volume 2",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 2\\Ain't No Doubt - Jimmy Nail.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Ain't No Doubt - Jimmy Nail-66e3cb55840f.ogg",
+          "display_label": "Ain't No Doubt - Jimmy Nail",
+          "duration": "00:04:08",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 2\\Baby I Love Your Way - Big Mountain.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Baby I Love Your Way - Big Mountain-dfa7f5993ae3.ogg",
+          "display_label": "Baby I Love Your Way - Big Mountain",
+          "duration": "00:04:10",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 2\\Crazy - Seal.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Crazy - Seal-7dfe79a18ba4.ogg",
+          "display_label": "Crazy - Seal",
+          "duration": "00:05:57",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 2\\Have I Told You Lately - Rod Stewart.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Have I Told You Lately - Rod Stewart-3ccbe3db9661.ogg",
+          "display_label": "Have I Told You Lately - Rod Stewart",
+          "duration": "00:04:02",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 2\\Mi Chico Latino - Geri Halliwell.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Mi Chico Latino - Geri Halliwell-4f1826591da4.ogg",
+          "display_label": "Mi Chico Latino - Geri Halliwell",
+          "duration": "00:03:14",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 2\\Mysterious Girl (Radio Edit) - Peter Andre.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Mysterious Girl (Radio Edit) - Peter Andre-6572a7b6b639.ogg",
+          "display_label": "Mysterious Girl (Radio Edit) - Peter Andre",
+          "duration": "00:03:39",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 2\\Naked - Louise.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Naked - Louise-322481869ba8.ogg",
+          "display_label": "Naked - Louise",
+          "duration": "00:03:35",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 2\\Never Ever (Radio Edit) - All Saints.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Never Ever (Radio Edit) - All Saints-21c7f58da637.ogg",
+          "display_label": "Never Ever (Radio Edit) - All Saints",
+          "duration": "00:03:54",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 2\\No Ordinary Love - Jennifer Love Hewitt.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\No Ordinary Love - Jennifer Love Hewitt-22dc942d935f.ogg",
+          "display_label": "No Ordinary Love - Jennifer Love Hewitt",
+          "duration": "00:04:05",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 2\\This Kiss - Faith Hill.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\This Kiss - Faith Hill-4833af259c05.ogg",
+          "display_label": "This Kiss - Faith Hill",
+          "duration": "00:03:15",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:16",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:13",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 18,
+      "media_name": "Pop - Volume 3",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 3\\Breathe - Faith Hill.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Breathe - Faith Hill-0bae33214037.ogg",
+          "display_label": "Breathe - Faith Hill",
+          "duration": "00:04:10",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 3\\Breathless - The Corrs.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Breathless - The Corrs-8e0bc4831308.ogg",
+          "display_label": "Breathless - The Corrs",
+          "duration": "00:03:28",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 3\\Fairground - Simply Red.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Fairground - Simply Red-b6273f87df99.ogg",
+          "display_label": "Fairground - Simply Red",
+          "duration": "00:05:33",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 3\\I'll Stand by You - The Pretenders.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\I'll Stand by You - The Pretenders-5233f3e52215.ogg",
+          "display_label": "I'll Stand by You - The Pretenders",
+          "duration": "00:04:01",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 3\\Just the Way It Is Baby - The Rembrandts.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Just the Way It Is Baby - The Rembrandts-2dd80c97be8a.ogg",
+          "display_label": "Just the Way It Is Baby - The Rembrandts",
+          "duration": "00:04:04",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 3\\Kiss from a Rose - Seal.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Kiss from a Rose - Seal-e9a8ba9de146.ogg",
+          "display_label": "Kiss from a Rose - Seal",
+          "duration": "00:04:48",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 3\\Pure Shores - All Saints.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Pure Shores - All Saints-155285101c45.ogg",
+          "display_label": "Pure Shores - All Saints",
+          "duration": "00:04:29",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 3\\Stars - Simply Red.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Stars - Simply Red-e1b46423fa4a.ogg",
+          "display_label": "Stars - Simply Red",
+          "duration": "00:04:09",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 3\\Undivided Love - Louise.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Undivided Love - Louise-e3b8c2b590c7.ogg",
+          "display_label": "Undivided Love - Louise",
+          "duration": "00:03:46",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 3\\Walking in Memphis - Cher.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Walking in Memphis - Cher-d50e983a38d3.ogg",
+          "display_label": "Walking in Memphis - Cher",
+          "duration": "00:03:56",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:18",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:3",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 19,
+      "media_name": "Pop - Volume 4",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 4\\Bag It Up - Geri Halliwell.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Bag It Up - Geri Halliwell-e0fcca4873db.ogg",
+          "display_label": "Bag It Up - Geri Halliwell",
+          "duration": "00:03:45",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 4\\Lady Marmalade - All Saints.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Lady Marmalade - All Saints-aab23f9a5ea8.ogg",
+          "display_label": "Lady Marmalade - All Saints",
+          "duration": "00:04:01",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 4\\Look at Me - Geri Halliwell.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Look at Me - Geri Halliwell-496c4d6a8286.ogg",
+          "display_label": "Look at Me - Geri Halliwell",
+          "duration": "00:04:32",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 4\\Runaway - The Corrs.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Runaway - The Corrs-d28ad3739cab.ogg",
+          "display_label": "Runaway - The Corrs",
+          "duration": "00:04:25",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 4\\Sitting Down Here - Lene Marlin.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Sitting Down Here - Lene Marlin-2c649b4c2051.ogg",
+          "display_label": "Sitting Down Here - Lene Marlin",
+          "duration": "00:03:54",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 4\\Something Got Me Started - Simply Red.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Something Got Me Started - Simply Red-783e821c0b33.ogg",
+          "display_label": "Something Got Me Started - Simply Red",
+          "duration": "00:04:01",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 4\\Strong Enough - Cher.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Strong Enough - Cher-c64a1341dbce.ogg",
+          "display_label": "Strong Enough - Cher",
+          "duration": "00:03:44",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 4\\Trouble - Shampoo.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Trouble - Shampoo-66c503542382.ogg",
+          "display_label": "Trouble - Shampoo",
+          "duration": "00:03:13",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop\\Volume 4\\What Can I Do (Tin Tin Out Remix) - The Corrs.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\What Can I Do (Tin Tin Out Remix) - The Corrs-d871b9513876.ogg",
+          "display_label": "What Can I Do (Tin Tin Out Remix) - The Corrs",
+          "duration": "00:04:20",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": "song_name",
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:9",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 20,
+      "media_name": "Pop Punk - Volume 1 (A side only)",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop-Punk\\Volume 1\\All The Small Things - blink-182.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\All The Small Things - blink-182-a077bfcc0e8d.ogg",
+          "display_label": "All The Small Things - blink-182",
+          "duration": "00:02:48",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop-Punk\\Volume 1\\Basket Case - Green Day.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Basket Case - Green Day-9b459053ab5d.ogg",
+          "display_label": "Basket Case - Green Day",
+          "duration": "00:03:02",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop-Punk\\Volume 1\\Good Riddance (Time of Your Life) - Green Day.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Good Riddance (Time of Your Life) - Green Day-4b8a2c4d8dfe.ogg",
+          "display_label": "Good Riddance (Time of Your Life) - Green Day",
+          "duration": "00:02:33",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Pop-Punk\\Volume 1\\Pretty Fly (For A White Guy) - The Offspring.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Pretty Fly (For A White Guy) - The Offspring-87a75d5cbc93.ogg",
+          "display_label": "Pretty Fly (For A White Guy) - The Offspring",
+          "duration": "00:03:09",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:14",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:13",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 21,
+      "media_name": "Post-Grunge - Volume 1",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Post-Grunge\\Volume 1\\3am - Matchbox Twenty.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\3am - Matchbox Twenty-168b0318a4c4.ogg",
+          "display_label": "3am - Matchbox Twenty",
+          "duration": "00:03:46",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Post-Grunge\\Volume 1\\Desperately Wanting - Better Than Ezra.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Desperately Wanting - Better Than Ezra-918831cea4a0.ogg",
+          "display_label": "Desperately Wanting - Better Than Ezra",
+          "duration": "00:04:38",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Post-Grunge\\Volume 1\\Runaway Train - Soul Asylum.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Runaway Train - Soul Asylum-18d1ab093608.ogg",
+          "display_label": "Runaway Train - Soul Asylum",
+          "duration": "00:04:26",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Post-Grunge\\Volume 1\\Save Tonight - Eagle-Eye Cherry.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Save Tonight - Eagle-Eye Cherry-34dfc2b00cc7.ogg",
+          "display_label": "Save Tonight - Eagle-Eye Cherry",
+          "duration": "00:04:02",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Post-Grunge\\Volume 1\\Semi-charmed Life - Third Eye Blind.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Semi-charmed Life - Third Eye Blind-c7052c6dc1e7.ogg",
+          "display_label": "Semi-charmed Life - Third Eye Blind",
+          "duration": "00:04:28",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Post-Grunge\\Volume 1\\What's This Life For - Creed.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\What's This Life For - Creed-b953b130afa1.ogg",
+          "display_label": "What's This Life For - Creed",
+          "duration": "00:03:32",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:5",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:15",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 22,
+      "media_name": "Post-Grunge - Volume 2",
+      "selected_side": "A",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Post-Grunge\\Volume 2\\Everlong - Foo Fighters.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Everlong - Foo Fighters-ee450d1a19cd.ogg",
+          "display_label": "Everlong - Foo Fighters",
+          "duration": "00:04:10",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Post-Grunge\\Volume 2\\Lightning Crashes - Live.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Lightning Crashes - Live-c4abc3eb350b.ogg",
+          "display_label": "Lightning Crashes - Live",
+          "duration": "00:05:25",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Post-Grunge\\Volume 2\\My Own Worst Enemy - Lit.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\My Own Worst Enemy - Lit-08a749964a95.ogg",
+          "display_label": "My Own Worst Enemy - Lit",
+          "duration": "00:02:49",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Post-Grunge\\Volume 2\\Push - Matchbox Twenty.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Push - Matchbox Twenty-037adc689456.ogg",
+          "display_label": "Push - Matchbox Twenty",
+          "duration": "00:03:59",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Post-Grunge\\Volume 2\\Santa Monica - Everclear.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Santa Monica - Everclear-7e763f358445.ogg",
+          "display_label": "Santa Monica - Everclear",
+          "duration": "00:03:12",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\Post-Grunge\\Volume 2\\Shine - Collective Soul.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Shine - Collective Soul-2e4c3d63e0e9.ogg",
+          "display_label": "Shine - Collective Soul",
+          "duration": "00:05:06",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:13",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:2",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 23,
+      "media_name": "R&B and Soule - Volume 1",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 1\\Angel of Mine - Eternal.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Angel of Mine - Eternal-5d278d5eb23c.ogg",
+          "display_label": "Angel of Mine - Eternal",
+          "duration": "00:04:19",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 1\\Cupid - 112.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Cupid - 112-dcb11a760fe1.ogg",
+          "display_label": "Cupid - 112",
+          "duration": "00:04:12",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 1\\Do You Believe in Me (Radio Edit) - Eric Gadd.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Do You Believe in Me (Radio Edit) - Eric Gadd-d3ab35f978ac.ogg",
+          "display_label": "Do You Believe in Me (Radio Edit) - Eric Gadd",
+          "duration": "00:03:59",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 1\\Freak Like Me - Adina Howard.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Freak Like Me - Adina Howard-9a47c1ba303f.ogg",
+          "display_label": "Freak Like Me - Adina Howard",
+          "duration": "00:04:14",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 1\\I Swear - All-4-One.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\I Swear - All-4-One-8c04267370fb.ogg",
+          "display_label": "I Swear - All-4-One",
+          "duration": "00:04:20",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 1\\I Wanna Sex You Up - Color Me Badd.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\I Wanna Sex You Up - Color Me Badd-229529333946.ogg",
+          "display_label": "I Wanna Sex You Up - Color Me Badd",
+          "duration": "00:04:02",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 1\\Love like This - Faith Evans.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Love like This - Faith Evans-b4b7fc84f88f.ogg",
+          "display_label": "Love like This - Faith Evans",
+          "duration": "00:04:36",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 1\\My Lovin' (You're Never Gonna Get It) - En Vogue.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\My Lovin' (You're Never Gonna Get It) - En Vogue-b1699df658b9.ogg",
+          "display_label": "My Lovin' (You're Never Gonna Get It) - En Vogue",
+          "duration": "00:04:42",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 1\\So into You - Tamia.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\So into You - Tamia-47cabe588b66.ogg",
+          "display_label": "So into You - Tamia",
+          "duration": "00:04:22",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:16",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:16",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    },
+    {
+      "row_id": 24,
+      "media_name": "R&B and Soule - Volume 2",
+      "selected_side": "B",
+      "preview_mode": "inventory",
+      "enabled_media": {
+        "cassette": true,
+        "vinyl": false,
+        "cd": false
+      },
+      "media_modes": {
+        "cassette": "split",
+        "vinyl": "split",
+        "cd": "single"
+      },
+      "cover_path": "",
+      "tracks_a": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 2\\Do My Thing - Titiyo.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Do My Thing - Titiyo-89a3fd8c1847.ogg",
+          "display_label": "Do My Thing - Titiyo",
+          "duration": "00:06:05",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 2\\Don't Let Go (Love) - En Vogue.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Don't Let Go (Love) - En Vogue-a9c05aab730d.ogg",
+          "display_label": "Don't Let Go (Love) - En Vogue",
+          "duration": "00:04:52",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 2\\Freak Me - Silk.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Freak Me - Silk-07a44a4cc48c.ogg",
+          "display_label": "Freak Me - Silk",
+          "duration": "00:04:35",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 2\\Free Your Mind - En Vogue.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Free Your Mind - En Vogue-cb2455a24581.ogg",
+          "display_label": "Free Your Mind - En Vogue",
+          "duration": "00:04:53",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 2\\I Wanna Be the Only One - Eternal (feat. BeBe Winans).ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\I Wanna Be the Only One - Eternal (feat. BeBe Winans)-bdcfcc7defa4.ogg",
+          "display_label": "I Wanna Be the Only One - Eternal (feat. BeBe Winans)",
+          "duration": "00:03:37",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "tracks_b": [
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 2\\It's Gonna Be Alright - Steve Cole.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\It's Gonna Be Alright - Steve Cole-c36c997d69db.ogg",
+          "display_label": "It's Gonna Be Alright - Steve Cole",
+          "duration": "00:04:03",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 2\\Just a Step from Heaven - Eternal.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Just a Step from Heaven - Eternal-02ef694700b3.ogg",
+          "display_label": "Just a Step from Heaven - Eternal",
+          "duration": "00:04:18",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 2\\Return of the Mack (C & J Street Mix) - Mark Morrison.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\Return of the Mack (C & J Street Mix) - Mark Morrison-9fe6e3fce48c.ogg",
+          "display_label": "Return of the Mack (C & J Street Mix) - Mark Morrison",
+          "duration": "00:03:33",
+          "conversion_status": "source_ogg"
+        },
+        {
+          "source_path": "C:\\play_dead\\New Music\\UwUTunes\\R&B & Soul\\Volume 2\\You Might Need Somebody - Shola Ama.ogg",
+          "cached_ogg_path": "C:\\play_dead\\New Music\\UwUTunesRemastered\\44100hz - Medium\\You Might Need Somebody - Shola Ama-4506b0d0492a.ogg",
+          "display_label": "You Might Need Somebody - Shola Ama",
+          "duration": "00:04:50",
+          "conversion_status": "source_ogg"
+        }
+      ],
+      "song_sort_a": {
+        "column": null,
+        "direction": "asc"
+      },
+      "song_sort_b": {
+        "column": null,
+        "direction": "asc"
+      },
+      "appearances": {
+        "cassette": {
+          "kind": "cassette",
+          "selected_asset_key": "cassette:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "vinyl": {
+          "kind": "vinyl",
+          "selected_asset_key": "vinyl:10",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd": {
+          "kind": "cd",
+          "selected_asset_key": "cd",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "case": {
+          "kind": "case",
+          "selected_asset_key": "case:1",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "jacket": {
+          "kind": "jacket",
+          "selected_asset_key": "jacket:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        },
+        "cd_cover": {
+          "kind": "cd_cover",
+          "selected_asset_key": "cd_cover:4",
+          "source": "default",
+          "sprite_mode": "single",
+          "inventory_full": "",
+          "world_full": "",
+          "inventory_empty": "",
+          "world_empty": ""
+        }
+      },
+      "expanded": false
+    }
+  ],
+  "custom_assets": {
+    "case": [],
+    "cassette": [],
+    "vinyl": [],
+    "cd": [],
+    "jacket": [],
+    "cd_cover": []
+  },
+  "generated_assets": []
+}

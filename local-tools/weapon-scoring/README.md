@@ -58,19 +58,28 @@ Full assumptions are documented at the top of each model file.
 
 You need **Python 3** installed. Then:
 
-1. Open [`config.py`](config.py) and check the three paths near the top match this
-   machine (where Steam put the mods, where PZ is installed, and our `pzserver.ini`).
+1. Open [`config.py`](config.py) and check the two Steam paths near the top match
+   this machine (where Steam put the mods, and where PZ is installed).
    **That file is the only thing you should ever need to edit.**
-2. From this folder, run:
+2. Make sure `pzserver.ini` **in this folder** is current — see below.
+3. From this folder, run:
 
    ```
    python generate.py
    ```
 
-3. Everything under [`output/`](output/) is regenerated. Commit it if it changed.
+4. Everything under [`output/`](output/) is regenerated. Commit it if it changed.
 
-It only scores mods listed in our `pzserver.ini` (both the `WorkshopItems=` and
-`Mods=` lines), so other servers' downloads in the Steam folder are ignored.
+### pzserver.ini — keep this current
+
+This tool reads `pzserver.ini` **from this folder**, not from the live server and
+not from a season folder. It only scores mods listed there (both the
+`WorkshopItems=` and `Mods=` lines), so other servers' downloads sitting in your
+Steam folder are ignored.
+
+That means the copy here is a **snapshot**. When the server's mod list changes,
+copy the live `pzserver.ini` over the one in this folder before re-running —
+otherwise you are scoring last season's mod list and won't be told.
 
 ---
 
@@ -79,6 +88,7 @@ It only scores mods listed in our `pzserver.ini` (both the `WorkshopItems=` and
 | File | What it is |
 |---|---|
 | `config.py` | Paths. The only per-machine file to edit. |
+| `pzserver.ini` | Snapshot of the server's mod list. Refresh when it changes. |
 | `common.py` | Reads the script files and the server mod list. |
 | `melee_model.py` | Melee scoring + assumptions. |
 | `ranged_model.py` | Firearm scoring + assumptions. |
